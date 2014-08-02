@@ -1,0 +1,713 @@
+/***********************
+Common
+***********************/
+body{
+    width:100%;
+    margin:0px;
+    font-family: Cambria, 'Times New Roman';
+    color: #646464;
+}
+.page-wrapper{
+    width: 100%;
+}
+.container{
+    width:900px;
+    margin:auto;
+}
+
+
+
+
+
+
+
+/***********************
+Header
+***********************/
+.header-wrapper{
+    width:100%;
+    background-image: url('../Images/banner-top-background-green.jpg');
+    background-position-x: left;
+    background-position-y: top;
+    background-repeat: no-repeat;
+}
+.header-menu{
+    
+}
+.header-container{
+    height: 85px;
+    width: 900px;
+    margin: auto;
+    color: rgb(95, 95, 95)
+}
+.header-container-text{
+    float: left;
+    font-size: 39px;
+    margin: 15px 0px 0px 0px;
+}
+.header-container-addText{
+    float: left;
+    font-size: 14px;
+    margin: 14px 0px 0px 57px;
+}
+.logo{
+    float: left;
+    width: 45px;
+    margin: 9px 0px 0px 0px;
+}
+.btn-translation{
+    background-image: url('../Images/greenBtn.png');
+    background-position-x: left;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    height: 32px;
+    width: 79px;
+    text-align: center;
+    padding-top: 10px;
+    float: right;
+    margin-top: 17px;
+    text-decoration: none;
+    color:  rgb(235, 235, 235);
+}
+.btn-translation:active{
+    background-image: url('../Images/greenBtnClick.png');
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+/***********************
+Navigation
+***********************/
+.nav {
+    text-decoration: none;
+    background-color: rgb(248, 248, 248);
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    display: block;
+    padding: 10px 10px 10px 10px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+    .nav > li {
+        display: inline-block;
+    }
+
+        .nav > li > a {
+            text-decoration: none;
+            color: rgb(167, 167, 167);
+            padding: 0px 55px 0px 55px;
+            border-right: rgb(228, 228, 228) solid 1px;
+        }
+
+        .nav > li:last-child > a {
+            border-right: 0px;
+        }
+
+
+.nav-container {
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+    font-family: cambria;
+    font-size: 14px;
+    background-color: rgb(248, 248, 248);
+}
+
+.btn-translation-sm{
+    display:none;
+}
+
+
+
+
+
+/***********************
+Content
+***********************/
+.content-wrapper{
+    width: 100%;
+    background-image: url('../Images/background-green.jpg');
+    background-position-x: left;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    top: 132px;
+    bottom: 65px;
+    position: absolute;
+    background-size: cover;
+
+}
+
+.content-pageWrapper{
+   float: right;
+    width: 681px;
+    background-position-x: left;
+    background-position-y: top;
+    padding: 10px;
+}
+.content-container{
+background-image: url('../Images/transparent.png');
+background-position-x: left;
+background-position-y: top;
+height: 100%;
+position: relative;
+}
+
+.content-imgBox{
+    background-position-x: left;
+    background-position-y: top;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.imgBox1{
+    background-image: url('../Images/imgBox1.png');  
+    width: 190px;
+    height: 255px;
+}
+.imgBox2{
+    background-image: url('../Images/imgBox2.png');
+    width: 190px;
+    height: 255px;
+}
+.imgBox3{
+    background-image: url('../Images/imgBox3.png');   
+    width: 190px;
+    height: 255px;
+}
+.content-imgBoxWrapper{
+    float:left
+}
+
+
+/***********************
+Footer
+***********************/
+.footer-wrapper{
+  width: 100%;
+    bottom: 0;
+    position: absolute;
+    height: 69px;  
+    background-image: url('../Images/footer-green.jpg');
+    background-position-x: left;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-container{
+    
+}
+
+
+
+
+
+
+/***********************
+Home
+***********************/
+
+.index-img {
+    width: 240px;
+    float: right;
+}
+
+.index-header {
+}
+
+    .index-header h1 {
+        font-size: 39px;
+    }
+
+.home-text {
+   
+}
+
+    
+    
+    
+    
+    
+
+@media(min-width:650px)
+{
+     .btn-translation-sm{
+        display:none;
+    }
+    
+    .nav {
+        display: block;
+    }
+    
+}
+
+
+
+/********************************************************************************/
+@media(max-width:935px)
+{
+    
+   .container{
+        max-width:900px;
+        width:100%;
+        margin:auto;
+   }
+ 
+   
+   /***********************
+    Header
+    ***********************/
+    .header-container {
+        height: 76px;
+        max-width: 900px;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .logo {
+        width: 38px;
+        margin: 9px 0px 0px 0px;
+    }
+    
+    .header-container-text {
+        float: left;
+        font-size: 30px;
+        margin: 16px 0px 0px 0px;
+    }
+    
+    
+    
+    
+    
+        /***********************
+    Navigation
+    ***********************/
+    .nav {
+        padding: 10px 10px 10px 10px;
+        max-width: 750px;
+        margin: auto;
+        display:block;
+    }
+
+        .nav > li {
+            display: inline-block;
+        }
+
+            .nav > li > a {
+                text-decoration: none;
+                color: rgb(167, 167, 167);
+                padding: 0px 30px 0px 30px;
+            }
+
+            .nav > li:last-child > a {
+                border-right: 0px;
+            }    
+            
+            
+            
+            
+            
+            
+     /***********************
+    Content
+    ***********************/   
+            
+    .content-wrapper {
+        top: 123px;
+    }
+}
+
+/********************************************************************************/
+@media(max-width:750px)
+{
+    .container{
+        max-width:750px;
+        width:100%;
+        margin:auto;
+   }
+ 
+   
+   /***********************
+    Header
+    ***********************/
+    .header-container {
+        height: 66px;
+        max-width: 750px;
+        width: 100%;
+    }
+    
+    .logo {
+        width: 38px;
+        margin: 9px 0px 0px 0px;
+    }
+    
+    .header-container-text {
+        float: left;
+        font-size: 24px;
+        margin: 16px 0px 0px 0px;
+    }
+    
+    .header-container-addText {
+        font-size: 14px;
+        margin: 10px 0px 0px 19px;
+    }
+    
+    .btn-translation {
+        background-image: url('../Images/greenBtn.png');
+        height: 32px;
+        width: 65px;
+        padding-top: 9px;        
+        margin-top: 12px;
+        font-size: 14px;
+        background-size: 66px;
+        margin-right: 10px;
+    }
+    
+    
+    
+    
+    
+
+    /***********************
+    Navigation
+    ***********************/
+    .nav {
+        padding: 10px 10px 10px 10px;
+        max-width: 750px;
+        margin: auto;
+        display:block;
+    }
+
+        .nav > li {
+            display: inline-block;
+        }
+
+            .nav > li > a {
+                text-decoration: none;
+                color: rgb(167, 167, 167);
+                padding: 0px 30px 0px 30px;
+            }
+
+            .nav > li:last-child > a {
+                border-right: 0px;
+            }
+            
+            
+            
+            
+                
+     /***********************
+    Content
+    ***********************/   
+            
+    .content-wrapper {
+        top: 112px;
+    }
+}
+
+/********************************************************************************/
+@media(max-width:650px)
+{
+    .container{
+        max-width:650px;
+        width:100%;
+        margin:auto;
+   }
+ 
+   
+   /***********************
+    Header
+    ***********************/
+    .header-container {
+        height: 50px;
+        max-width: 750px;
+        width: 100%;
+    }
+    
+    .logo {
+        width: 29px;
+        margin: 6px 0px 0px 6px;
+    }
+    
+    .header-container-text {
+        font-size: 20px;
+        margin: 10px 0px 0px 0px
+    }
+    
+    .header-container-addText {
+        display:none;
+    }
+    
+    .btn-translation {
+        background-image: url('../Images/greenBtn.png');
+        height: 32px;
+        width: 65px;
+        padding-top: 9px;        
+        margin-top: 12px;
+        font-size: 14px;
+        background-size: 66px;
+        margin-right: 10px;
+        display:none;
+    } 
+    
+    
+    
+    
+    
+    /***********************
+    Navigation
+    ***********************/
+    ul > .nav {
+        display: none;
+    }
+
+    .nav > li {
+        display: block;
+        text-align: left;
+    }
+
+        .nav > li > a {
+            text-decoration: none;
+            margin: 10px 0px 13px 0px;
+            border-right: none;
+            border-bottom: 1px solid white;
+            padding: 0px;
+            display: block;
+        }
+
+    .nav {
+        padding: 10px 10px 10px 10px;
+        max-width: 650px;
+        width: 96%;
+        margin: auto; 
+        position: absolute;
+        z-index: 999;
+        display:none;
+    }
+
+    .nav-btn::before {
+        content: "Menu";
+        width: 97%;
+        margin: 1px 0px 0px 10px;
+        padding: 0px;
+        cursor: pointer;
+        display: block;
+    }
+
+
+    .nav-container {
+        border-bottom: 7px solid white;
+        border-top: 3px solid white;
+        font-family: cambria;
+        font-size: 14px;
+        background-color: rgb(238, 238, 238);
+    }
+    
+    .btn-translation-sm {
+        margin: 0px 10px 0px 0px;
+        padding: 0px 0px 0px 9px;
+        cursor: pointer;
+        display: block;
+        float: right;
+        border-left: 1PX SOLID lightgrey;
+    }
+
+        .btn-translation-sm a {
+            text-decoration: none;
+            color: #646464;
+        }
+
+        
+        
+        
+        
+    /***********************
+    Content
+    ***********************/    
+    .content-wrapper {
+        top: 73px;
+        bottom: 46px;
+    }
+    
+    
+    
+    
+    
+    /***********************
+    Content
+    ***********************/    
+    .footer-wrapper {
+        width: 100%;
+        bottom: 0;
+        position: absolute;
+        height: 46px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***********************
+  Corner of shame
+  ***********************/ 
+.shadowBox-wrapper{};
+
+.shodowBox-Container-top{
+    width:100%;
+}
+
+.shodowBox-Container-mid{
+    width:100%;
+}
+
+.shodowBox-Container-bottom{
+    width:100%;
+}
+
+.shadowBox-Content{};
+
+.shadowBoxTopCornerLeft{
+    width:20px;
+    height:20px;
+    background-image:url('../Images/cornerCurlShadowTopLeft.png');
+    background-position-x: left;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    float:left;
+}
+.shadowBoxTopCornerRight{
+    width:20px;
+    height:20px;
+    background-image:url('../Images/cornerCurlShadowTopRight.png');
+    background-position-x: left;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    float:right;
+}
+.shadowBoxBottomCornerRight{
+    width:20px;
+    height:20px;
+    background-image:url('../Images/cornerCurlShadowBottomLeft.png');
+    background-position-x: left;
+    background-position-y: top;
+    background-repeat: no-repeat;
+}
+.shadowBoxBottomCornerRight{
+    width:20px;
+    height:20px;
+    background-image:url('../Images/cornerCurlShadowBottomRight.png');
+    background-position-x: left;
+    background-position-y: top;
+    background-repeat: no-repeat;
+}
+.shadowBoxLeft{
+    width:20px;
+    height:100%;
+    background-position-x: left;
+    background-position-y: top;
+    background-repeat:repeat-y;
+    background-image: url('../Images/shadowSmall_side_left.png');
+}
+.shadowBoxRight{
+    width:20px;
+    height:100%;
+    background-position-x: left;
+    background-position-y: top;
+    background-repeat:repeat-y;
+    background-image: url('../Images/shadowSmall_side_left.png');
+}
+.shadowBoxTop{
+    width:100%;
+    height:20px;
+    background-position-x: left;
+    background-position-y: top;
+    background-repeat:repeat-x;
+    background-image: url('../Images/shadowSmall_top.png');
+}
+.shadowBoxBottom{
+    width:100%;
+    height:20px;
+    background-position-x: left;
+    background-position-y: top;
+    background-repeat:repeat-x;
+    background-image: url('../Images/shadowSmall_bottom.png');
+}
+.shadowBoxTopLeftTop{
+    width:8px;
+    height:20px;
+    background-position-x: left;
+    background-position-y: top;
+    background-repeat:no-repeat;
+    background-image: url('../Images/shadow_topCornerTop_left.png');
+}
+.shadowBoxTopRightTop{
+    width:8px;
+    height:20px;
+    background-position-x: left;
+    background-position-y: top;
+    background-repeat:no-repeat;
+    background-image: url('../Images/shadow_topCornerTop_right.png');
+}
+.shadowBoxTopLeftBottom{
+    width:20px;
+    height:8px;
+    background-position-x: left;
+    background-position-y: top;
+    background-repeat:no-repeat;
+    background-image: url('../Images/shadow_topCornerBottom_left.png');
+}
+.shadowBoxTopLeftBottom{
+    width:20px;
+    height:8px;
+    background-position-x: left;
+    background-position-y: top;
+    background-repeat:no-repeat;
+    background-image: url('../Images/shadow_topCornerBottom_right.png');
+}
+.shadowBoxBottomLeftBottom{
+    width:20px;
+    height:px;
+    background-position-x: left;
+    background-position-y: top;
+    background-repeat:no-repeat;
+    background-image: url('../Images/shadow_bottomCornerBottom_left.png');
+}
+.shadowBoxBotomRightBottom{
+    width:20px;
+    height:8px;
+    background-position-x: left;
+    background-position-y: top;
+    background-repeat:no-repeat;
+    background-image: url('../Images/shadow_bottomCornerBottom_right.png');
+}
+.shadowBoxBottomLeftTop{
+    width:8px;
+    height:20px;
+    background-position-x: left;
+    background-position-y: top;
+    background-repeat:no-repeat;
+    background-image: url('../Images/shadow_bottomCornerTop_left.png');
+}
+.shadowBoxBottomRightTop{
+    width:8px;
+    height:20px;
+    background-position-x: left;
+    background-position-y: top;
+    background-repeat:no-repeat;
+    background-image: url('../Images/shadow_bottomCornerTop_right.png');
+}

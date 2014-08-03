@@ -135,25 +135,25 @@ Content
     background-position-y: top;
     background-repeat: no-repeat;
     top: 132px;
-    bottom: 65px;
+    bottom: 45px;
     position: absolute;
     background-size: cover;
 
 }
 
 .content-pageWrapper{
-   float: right;
-    width: 681px;
+    float: right;
+    width: 76%;
     background-position-x: left;
     background-position-y: top;
     padding: 10px;
 }
 .content-container{
-background-image: url('../Images/transparent.png');
-background-position-x: left;
-background-position-y: top;
-height: 100%;
-position: relative;
+    background-image: url('../Images/transparent.png');
+    background-position-x: left;
+    background-position-y: top;
+    height: 100%;
+    position: relative;
 }
 
 .content-imgBox{
@@ -187,10 +187,10 @@ position: relative;
 Footer
 ***********************/
 .footer-wrapper{
-  width: 100%;
+    width: 100%;
     bottom: 0;
-    position: absolute;
-    height: 69px;  
+    position: fixed;
+    height: 45px;
     background-image: url('../Images/footer-green.jpg');
     background-position-x: left;
     background-position-y: top;
@@ -319,6 +319,11 @@ Home
     .content-wrapper {
         top: 123px;
     }
+    
+    .content-pageWrapper {
+        float: left;
+        width: 70%;
+    }
 }
 
 /********************************************************************************/
@@ -387,9 +392,7 @@ Home
         }
 
             .nav > li > a {
-                text-decoration: none;
-                color: rgb(167, 167, 167);
-                padding: 0px 30px 0px 30px;
+                padding: 0px 24px 0px 24px;
             }
 
             .nav > li:last-child > a {
@@ -406,6 +409,11 @@ Home
             
     .content-wrapper {
         top: 112px;
+    }
+    
+    .content-pageWrapper{
+        float: left;
+        width: 66%;
     }
 }
 

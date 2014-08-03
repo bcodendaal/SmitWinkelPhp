@@ -38,12 +38,12 @@ $('span.nav-btn').click(function () {
 
 
 $(window).resize(function () {
-    if ($(window).width() > 650) {
-        $('ul.nav').show();
+    if ($(window).width() > 634) {
+        $('.nav').show();
         $('.btn-translation-sm').hide();
     }
-    else if ($(window).width() < 650) {
-        $('ul.nav').hide();
+    else if ($(window).width() < 634) {
+        $('.nav').hide();
         $('.btn-translation-sm').show();
     }
 });

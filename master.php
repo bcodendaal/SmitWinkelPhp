@@ -6,42 +6,38 @@
     <link href="Theme/CSS/main.css" rel="stylesheet" type="text/css"/>
     <script src="Scripts/jquery-1.7.1.min.js" type="text/javascript"></script>
 </head>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title></title>
-    </head>
-    <body>
-        <div class="page-wrapper">
-            <div id="header" class="header-wrapper clearfix">
-                <div class="header-container container clearfix">
-                    <?php include('Pages/headerContent_EN.php') ?>
-                </div>
+<body>
+    <div class="page-wrapper">
+        <div id="header" class="header-wrapper clearfix">
+            <div class="header-container container clearfix">
+                <?php include('Pages/headerContent_EN.php') ?>
             </div>
-            <div id="navigation">
-                <?php include('Pages/navContent_EN.php') ?>
-            </div>
-            <div id="content" class="content-wrapper">
-                <div class="content-container container">
-                    <div class="content-imgBoxWrapper">
-                        <div class="content-imgBox imgBox1">
-                        </div>
-                        <div class="content-imgBox imgBox2">
-                        </div>
-                        <div class="content-imgBox imgBox3">
-                        </div>
+        </div>
+        <div id="navigation">
+            <?php include('Pages/navContent_EN.php') ?>
+        </div>
+        <div id="content" class="content-wrapper">
+            <div class="content-container container">
+                <div class="content-imgBoxWrapper">
+                    <div class="content-imgBox imgBox1">
                     </div>
-                    <div class="content-pageWrapper">
-                        <?php include($page_content);?>
+                    <div class="content-imgBox imgBox2">
+                    </div>
+                    <div class="content-imgBox imgBox3">
                     </div>
                 </div>
+                <div class="content-pageWrapper">
+                    <?php include($page_content);?>
+                </div>
             </div>
-            <div id="footer" class="footer-wrapper">
+        </div>
+        <div id="footer" class="footer-wrapper">
             <div class="footer-container container">
                 Footer
             </div>
         </div>
-    </body>
+    </div>
+</body>
 </html>
 
 <script src="Scripts/Common.js" type="text/javascript"></script>

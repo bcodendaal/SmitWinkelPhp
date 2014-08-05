@@ -18,22 +18,23 @@
         </div>
         <div id="content" class="content-wrapper">
             <div class="content-container container">
-                <div class="content-imgBoxWrapper">
-                    <div class="content-imgBox imgBox1">
+
+                    <div class="content-imgBoxWrapper clearfix">
+                        <div class="content-imgBox imgBox1">
+                        </div>
+                        <div class="content-imgBox imgBox2">
+                        </div>
+                        <div class="content-imgBox imgBox3">
+                        </div>
                     </div>
-                    <div class="content-imgBox imgBox2">
+                    <div class="content-pageWrapper clearfix">
+                        <?php include($page_content);?>
                     </div>
-                    <div class="content-imgBox imgBox3">
-                    </div>
-                </div>
-                <div class="content-pageWrapper">
-                    <?php include($page_content);?>
-                </div>
+
             </div>
         </div>
         <div id="footer" class="footer-wrapper">
             <div class="footer-container container">
-                Footer
             </div>
         </div>
     </div>

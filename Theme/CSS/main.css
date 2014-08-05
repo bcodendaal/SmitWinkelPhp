@@ -34,6 +34,7 @@ Header
 .header-menu{
     
 }
+
 .header-container{
     height: 85px;
     width: 900px;
@@ -135,10 +136,9 @@ Content
     background-position-y: top;
     background-repeat: no-repeat;
     top: 132px;
-    bottom: 45px;
-    position: absolute;
     background-size: cover;
-
+    min-height: 795px;
+    padding-bottom: 32px;
 }
 
 .content-pageWrapper{
@@ -147,13 +147,14 @@ Content
     background-position-x: left;
     background-position-y: top;
     padding: 10px;
+    text-align: justify;
 }
 .content-container{
-    background-image: url('../Images/transparent.png');
+    background-image: url('../Images/seethrough.png');
     background-position-x: left;
     background-position-y: top;
-    height: 100%;
-    position: relative;
+    min-height: 788px;
+    overflow: hidden;
 }
 
 .content-imgBox{
@@ -541,8 +542,15 @@ Home
         bottom: 46px;
     }
     
+    .content-pageWrapper{
+        clear: both;
+        width: auto;
+        padding: 0px 20px 20px 20px;
+    }
     
-    
+    .content-imgBoxWrapper{
+        display:none;
+    }
     
     
     /***********************
@@ -551,7 +559,6 @@ Home
     .footer-wrapper {
         width: 100%;
         bottom: 0;
-        position: absolute;
         height: 46px;
     }
     

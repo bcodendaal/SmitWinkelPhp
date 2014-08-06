@@ -2,10 +2,11 @@
 Common
 ***********************/
 body{
-    width:100%;
-    margin:0px;
+    width: 100%;
+    margin: 0px;
     font-family: Cambria, 'Times New Roman';
     color: #646464;
+    min-width: 250px;
 }
 .page-wrapper{
     width: 100%;
@@ -138,7 +139,6 @@ Content
     top: 132px;
     background-size: cover;
     min-height: 795px;
-    padding-bottom: 32px;
 }
 
 .content-pageWrapper{
@@ -150,10 +150,10 @@ Content
     text-align: justify;
 }
 .content-container{
-    background-image: url('../Images/seethrough.png');
+    background-image: url('../Images/seethrough_40.png');
     background-position-x: left;
     background-position-y: top;
-    min-height: 788px;
+    min-height: 793px;
     overflow: hidden;
 }
 
@@ -190,8 +190,7 @@ Footer
 .footer-wrapper{
     width: 100%;
     bottom: 0;
-    position: fixed;
-    height: 45px;
+    height: 37px;
     background-image: url('../Images/footer-green.jpg');
     background-position-x: left;
     background-position-y: top;
@@ -354,7 +353,7 @@ Home
     .header-container-text {
         float: left;
         font-size: 24px;
-        margin: 16px 0px 0px 0px;
+        margin: 16px 0px 0px 0px
     }
     
     .header-container-addText {
@@ -416,6 +415,10 @@ Home
         float: left;
         width: 66%;
     }
+    
+    .content-container{ 
+        background-image: url('../Images/seethrough.png');
+    }
 }
 
 /********************************************************************************/
@@ -444,7 +447,8 @@ Home
     
     .header-container-text {
         font-size: 20px;
-        margin: 10px 0px 0px 0px
+        margin: 13px 0px 0px 0px;
+        font-weight: bold;
     }
     
     .header-container-addText {
@@ -509,8 +513,8 @@ Home
 
 
     .nav-container {
-        border-bottom: 7px solid white;
-        border-top: 3px solid white;
+        border-bottom: 4px solid white;
+        border-top: 4px solid white;
         font-family: cambria;
         font-size: 14px;
         background-color: rgb(238, 238, 238);
@@ -552,9 +556,12 @@ Home
         display:none;
     }
     
+    .content-container{ 
+        background-image: url('../Images/seethrough.png');
+    }
     
     /***********************
-    Content
+    Footer
     ***********************/    
     .footer-wrapper {
         width: 100%;
@@ -565,7 +572,32 @@ Home
 }
 
 
-
+@media(max-width:350px)
+{
+    .header-container {
+        height: 36px;
+    }
+    
+    .logo {
+        width: 19px;
+        margin: 6px 0px 0px 6px;
+    }
+    
+    .header-container-text {
+        font-size: 15px;
+        font-weight: bold;
+        margin: 10px 0px 0px 0px;
+    }
+    
+    .index-header h1 {
+        font-size: 30px;        
+       }
+       
+    .content-container{ 
+        background-image: url('../Images/seethrough.png');
+    }
+    
+}
 
 
 

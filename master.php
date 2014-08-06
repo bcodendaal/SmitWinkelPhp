@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Sound Bites Society</title>
     <title></title>
     <link href="Theme/CSS/main.css" rel="stylesheet" type="text/css"/>
     <script src="Scripts/jquery-1.7.1.min.js" type="text/javascript"></script>
@@ -43,36 +49,3 @@
 
 <script src="Scripts/Common.js" type="text/javascript"></script>
 
-
-
-
-
-
-
-
-
-
-
-
-<!-- Corner of shame
-
-
-<div class="shadowBox-wrapper clearfix">
-    <div class="shodowBox-Container-top clearfix">
-        <div class="shadowBoxTopLeftTop"></div>
-        <div class="shadowBoxTop"></div>
-        <div class="shadowBoxTopRightTop"></div>
-    </div>
-    <div class="shadowBox-Container-mid cleafix">
-        <div class="shadowBox-Content">
-            Box Content Goes here
-            <br/>
-            Text content
-        </div>
-    </div>
-    <div class="shodowBox-Container-bottom clearfix">
-        
-    </div>
-</div>
-
-!->

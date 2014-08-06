@@ -181,12 +181,12 @@ include '/../includes/Home/PatientForm.php';
                     <input type="text" name="relationship" /></td>
             </tr>
         </table>
-
-        <a id="next1">
+        
+        <button id="next1">
             <?php
             echo lang('Next')
             ?>
-        </a>
+        </button>
     </div>
     <div class="container" id="patientForm2" style="display: none">
         <div>
@@ -328,17 +328,17 @@ include '/../includes/Home/PatientForm.php';
                 </td>
             </tr>
         </table>
-        <a id="prev1">
+        <button id="prev1">
             <?php
             echo lang('Previous')
             ?>
-        </a>
+        </button>
 
-        <a id="next2">
+        <button id="next2">
             <?php
             echo lang('Next')
             ?>
-        </a>
+        </button>
     </div>
     <div class="container" id="patientForm3" style="display: none">
         <div>
@@ -529,7 +529,8 @@ include '/../includes/Home/PatientForm.php';
                 $('#patientForm3').hide();
                 $('#submitform').hide();
                 $('#patientForm2').show();
-            }
+            }            
+            return false;
         });
 
         $('#next2').click(function() {
@@ -538,8 +539,8 @@ include '/../includes/Home/PatientForm.php';
                 $('#patientForm2').hide();
                 $('#submitform').show();
                 $('#patientForm3').show();
-
             }
+            return false;
         });
 
         $('#prev1').click(function() {
@@ -547,6 +548,7 @@ include '/../includes/Home/PatientForm.php';
             $('#patientForm3').hide();
             $('#patientForm1').show();
             $('#submitform').hide();
+            return false;
         });
 
 

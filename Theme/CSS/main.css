@@ -758,3 +758,9 @@ Home
     background-repeat:no-repeat;
     background-image: url('../Images/shadow_bottomCornerTop_right.png');
 }
+
+/*--------- validation ----------*/
+.error
+{
+    border: 2px solid red;
+}

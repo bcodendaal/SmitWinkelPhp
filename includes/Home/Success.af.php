@@ -15,6 +15,8 @@
    Sukses',
   
   'Your' => '
-   U'
+   U',
+        
+        'Home' => 'Tuis'
   
 );return (!array_key_exists($phrase,$_L)) ? $phrase : $_L[$phrase]; }?>

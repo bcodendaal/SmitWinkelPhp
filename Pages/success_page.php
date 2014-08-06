@@ -1,8 +1,32 @@
 <?php
+include '/../includes/Home/Success.php';
+?>
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
+<h2>
+    <?php
+    echo lang('SuccessHeader')
+    ?>
+</h2>
+
+<div>    
+    <span>
+        <?php
+        echo lang('Your')
+        ?>
+
+
+        @ViewData["Message"] 
+
+        <?php
+        echo lang('Submitted')
+        ?>
+    </span>
+</div>
+<div>
+    <a href="Index">
+        <?php
+        echo lang('Home')
+        ?>
+    </a> 
+</div>

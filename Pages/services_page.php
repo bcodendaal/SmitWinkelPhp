@@ -1,8 +1,14 @@
 <?php
+include '/../includes/Home/PatientForm.php';
+?>
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
+<h2>
+    <?php
+    echo lang('Header')
+    ?>
+</h2>
+<div>
+    <?php
+    echo lang('Content')
+    ?>
+</div>

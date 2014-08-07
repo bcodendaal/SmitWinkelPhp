@@ -1,15 +1,120 @@
 <?php
+if($_SESSION['lang'] == 'af')
+{
+    include '/../includes/Home/OurTeam.af.php';
+}
+else
+{
 include '/../includes/Home/OurTeam.php';
+}
 ?>
 
 <h2>
     <?php
-    echo lang('Content')
+    echo lang('Header')
     ?>
 </h2>
 
 <div>
-    <?php
-    echo lang('Content')
+    <h2>
+         <?php
+        echo lang('DentistsSubHeader')
     ?>
+    </h2>
+    <div>
+         <?php
+        echo lang('Dentist1')
+    ?>
+    </div>
+    <div>
+         <?php
+        echo lang('Dentist2')
+    ?>
+    </div>
+    <div>
+         <?php
+        echo lang('Dentist3')
+    ?>
+    </div>
+    <div>
+         <?php
+        echo lang('Dentist4')
+    ?>
+    </div>
+    
+    <h2>
+          <?php
+        echo lang('OralHygienistSubHeader')
+    ?>
+    </h2>
+    
+    <div>
+          <?php
+        echo lang('OralHygienist1')
+    ?>
+        
+         <?php
+        echo lang('OralHygienist2')
+    ?>
+    </div>
+    
+    <h2>
+           <?php
+        echo lang('ReceptionAdminSubHeader')
+    ?>
+    </h2>
+    <div>
+          
+         <?php
+        echo lang('ReceptionAdmin1')
+    ?>
+    </div>
+    
+     <div>
+          
+         <?php
+        echo lang('ReceptionAdmin2')
+    ?>
+    </div>
+    
+    <div>
+          
+         <?php
+        echo lang('ReceptionAdmin3')
+    ?>
+    </div>
+    
+    <h2>
+           <?php
+        echo lang('AuxilaryStaffSubHeader')
+    ?>
+    </h2>
+    
+      <div>
+          
+         <?php
+        echo lang('AuxilaryStaff1')
+    ?>
+    </div>
+    
+      <div>
+          
+         <?php
+        echo lang('AuxilaryStaff2')
+    ?>
+    </div>
+    
+      <div>
+          
+         <?php
+        echo lang('AuxilaryStaff3')
+    ?>
+    </div>
+    
+      <div>
+          
+         <?php
+        echo lang('AuxilaryStaff4')
+    ?>
+    </div>
 </div>

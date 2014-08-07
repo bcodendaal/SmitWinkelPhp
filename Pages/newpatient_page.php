@@ -1,5 +1,12 @@
 <?php
-include '/../includes/Home/NewPatient.php';
+if($_SESSION['lang'] == 'af')
+{
+include '/../includes/Home/NewPatient.af.php';
+}
+else
+{
+include '/../includes/Home/NewPatient.php';    
+}
 ?>
 
 <h2>
@@ -22,7 +29,7 @@ include '/../includes/Home/NewPatient.php';
 
 </div>
 
-<a href="PatientForm">
+<a href="patientform.php">
     <?php
     echo lang('Form')
     ?>

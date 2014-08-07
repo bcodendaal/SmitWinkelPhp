@@ -1,5 +1,12 @@
 <?php
-include '/../includes/Home/PatientForm.php';
+if($_SESSION['lang'] == 'af')
+{
+include '/../includes/Home/PatientForm.af.php';
+}
+else
+{
+include '/../includes/Home/PatientForm.php';    
+}
 ?>
 
 <h2>
@@ -13,7 +20,7 @@ include '/../includes/Home/PatientForm.php';
     ?>
 
 </div>
-<form action="/Home/PatientForm" id="newpatientform" method="post" >
+<form action="/patientform" id="newpatientform" method="post" >
     <div class="container" id="patientForm1" style="display: block">
         <div>
             <?php

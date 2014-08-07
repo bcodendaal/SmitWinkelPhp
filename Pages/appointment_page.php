@@ -1,5 +1,12 @@
 <?php 
+if($_SESSION['lang'] == 'af')
+{
+include '/../includes/Home/Appointment.af.php';
+}
+else
+{
 include '/../includes/Home/Appointment.php';
+}
 ?>
 
 <h2>Appointment</h2>

@@ -13,6 +13,22 @@
     <script src="Scripts/jquery-1.7.1.min.js" type="text/javascript"></script>
 </head>
 <body>
+    <?php 
+    if(!isset($_SESSION)) { session_start(); } 
+    
+    if(!array_key_exists ( 'lang' , $_SESSION))
+    {
+        $currLang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
+	$_SESSION['lang'] = $currLang; 
+    }
+	   if ($_SESSION['lang'] == "") { 
+	$_SESSION['lang'] = "en"; 
+	$currLang = "en"; 
+	} else { 
+	$currLang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2); 
+	$_SESSION['lang'] = $currLang; 
+	} 
+?>
     <div class="page-wrapper">
         <div id="header" class="header-wrapper clearfix">
             <div class="header-container container clearfix">

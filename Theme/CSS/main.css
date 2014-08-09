@@ -129,6 +129,7 @@ Navigation
     font-family: cambria;
     font-size: 14px;
     background-color: rgb(248, 248, 248);
+    padding: 5px 0px 5px 0px;
 }
 
 .btn-translation-sm{
@@ -550,11 +551,15 @@ Home
 
     .nav-btn::before {
         content: "Menu";
-        width: 97%;
-        margin: 1px 0px 0px 10px;
-        padding: 0px;
+        width: 47px;
+        margin: 0px 0px 4px 10px;
+        padding: 0px 5px 0px 5px;
         cursor: pointer;
         display: block;
+        border-radius: 4px;
+        box-shadow: 1px 1px 2px 0px;
+        padding: 0px 5px 0px 5px;
+        background-color: rgb(219, 219, 219);
     }
 
 
@@ -572,7 +577,10 @@ Home
         cursor: pointer;
         display: block;
         float: right;
-        border-left: 1PX SOLID lightgrey;
+        border-radius: 4px;
+        box-shadow: 1px 1px 2px 0px;
+        padding: 0px 5px 0px 5px;
+        background-color: rgb(219, 219, 219);
     }
 
         .btn-translation-sm a {
@@ -658,165 +666,6 @@ Home
     
 }
 
-
-
-
-
-
-
-
-
-
-
-/***********************
-  Corner of shame
-  ***********************/ 
-.shadowBox-wrapper{};
-
-.shodowBox-Container-top{
-    width:100%;
-}
-
-.shodowBox-Container-mid{
-    width:100%;
-}
-
-.shodowBox-Container-bottom{
-    width:100%;
-}
-
-.shadowBox-Content{};
-
-.shadowBoxTopCornerLeft{
-    width:20px;
-    height:20px;
-    background-image:url('../Images/cornerCurlShadowTopLeft.png');
-    background-position-x: left;
-    background-position-y: top;
-    background-repeat: no-repeat;
-    float:left;
-}
-.shadowBoxTopCornerRight{
-    width:20px;
-    height:20px;
-    background-image:url('../Images/cornerCurlShadowTopRight.png');
-    background-position-x: left;
-    background-position-y: top;
-    background-repeat: no-repeat;
-    float:right;
-}
-.shadowBoxBottomCornerRight{
-    width:20px;
-    height:20px;
-    background-image:url('../Images/cornerCurlShadowBottomLeft.png');
-    background-position-x: left;
-    background-position-y: top;
-    background-repeat: no-repeat;
-}
-.shadowBoxBottomCornerRight{
-    width:20px;
-    height:20px;
-    background-image:url('../Images/cornerCurlShadowBottomRight.png');
-    background-position-x: left;
-    background-position-y: top;
-    background-repeat: no-repeat;
-}
-.shadowBoxLeft{
-    width:20px;
-    height:100%;
-    background-position-x: left;
-    background-position-y: top;
-    background-repeat:repeat-y;
-    background-image: url('../Images/shadowSmall_side_left.png');
-}
-.shadowBoxRight{
-    width:20px;
-    height:100%;
-    background-position-x: left;
-    background-position-y: top;
-    background-repeat:repeat-y;
-    background-image: url('../Images/shadowSmall_side_left.png');
-}
-.shadowBoxTop{
-    width:100%;
-    height:20px;
-    background-position-x: left;
-    background-position-y: top;
-    background-repeat:repeat-x;
-    background-image: url('../Images/shadowSmall_top.png');
-}
-.shadowBoxBottom{
-    width:100%;
-    height:20px;
-    background-position-x: left;
-    background-position-y: top;
-    background-repeat:repeat-x;
-    background-image: url('../Images/shadowSmall_bottom.png');
-}
-.shadowBoxTopLeftTop{
-    width:8px;
-    height:20px;
-    background-position-x: left;
-    background-position-y: top;
-    background-repeat:no-repeat;
-    background-image: url('../Images/shadow_topCornerTop_left.png');
-}
-.shadowBoxTopRightTop{
-    width:8px;
-    height:20px;
-    background-position-x: left;
-    background-position-y: top;
-    background-repeat:no-repeat;
-    background-image: url('../Images/shadow_topCornerTop_right.png');
-}
-.shadowBoxTopLeftBottom{
-    width:20px;
-    height:8px;
-    background-position-x: left;
-    background-position-y: top;
-    background-repeat:no-repeat;
-    background-image: url('../Images/shadow_topCornerBottom_left.png');
-}
-.shadowBoxTopLeftBottom{
-    width:20px;
-    height:8px;
-    background-position-x: left;
-    background-position-y: top;
-    background-repeat:no-repeat;
-    background-image: url('../Images/shadow_topCornerBottom_right.png');
-}
-.shadowBoxBottomLeftBottom{
-    width:20px;
-    height:px;
-    background-position-x: left;
-    background-position-y: top;
-    background-repeat:no-repeat;
-    background-image: url('../Images/shadow_bottomCornerBottom_left.png');
-}
-.shadowBoxBotomRightBottom{
-    width:20px;
-    height:8px;
-    background-position-x: left;
-    background-position-y: top;
-    background-repeat:no-repeat;
-    background-image: url('../Images/shadow_bottomCornerBottom_right.png');
-}
-.shadowBoxBottomLeftTop{
-    width:8px;
-    height:20px;
-    background-position-x: left;
-    background-position-y: top;
-    background-repeat:no-repeat;
-    background-image: url('../Images/shadow_bottomCornerTop_left.png');
-}
-.shadowBoxBottomRightTop{
-    width:8px;
-    height:20px;
-    background-position-x: left;
-    background-position-y: top;
-    background-repeat:no-repeat;
-    background-image: url('../Images/shadow_bottomCornerTop_right.png');
-}
 
 /*--------- validation ----------*/
 .error

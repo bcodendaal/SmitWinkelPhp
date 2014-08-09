@@ -9,12 +9,12 @@ include '/../includes/Home/OurTeam.php';
 }
 ?>
 
-<h2>
+<h1>
     <?php
     echo lang('Header')
     ?>
-</h2>
-
+</h1>
+<hr/>
 <div>
     <h2>
          <?php
@@ -41,7 +41,7 @@ include '/../includes/Home/OurTeam.php';
         echo lang('Dentist4')
     ?>
     </div>
-    
+    <br/>
     <h2>
           <?php
         echo lang('OralHygienistSubHeader')
@@ -57,7 +57,7 @@ include '/../includes/Home/OurTeam.php';
         echo lang('OralHygienist2')
     ?>
     </div>
-    
+    <br/>
     <h2>
            <?php
         echo lang('ReceptionAdminSubHeader')
@@ -83,7 +83,7 @@ include '/../includes/Home/OurTeam.php';
         echo lang('ReceptionAdmin3')
     ?>
     </div>
-    
+    <br/>
     <h2>
            <?php
         echo lang('AuxilaryStaffSubHeader')

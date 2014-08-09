@@ -9,11 +9,12 @@ include '/../includes/Home/services.php';
 }
 ?>
 
-<h2>
+<h1>
     <?php
     echo lang('Header')
     ?>
-</h2>
+</h1>
+<hr/>
 <div>
     <?php
     echo lang('Service1')

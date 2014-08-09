@@ -43,20 +43,20 @@
 
                     <div class="content-imgBoxWrapper clearfix">
                         
-                        <a class="content-imgBox imgBox1">
+                        <a href="#" class="content-imgBox imgBox1">
                             <span class="box1text boxText">
                                 <h4>Book an appointment</h4>
                                 Click here and fill in a form to make an appointment
                             </span>
                         </a>
                             
-                        <div class="content-imgBox imgBox2">
+                        <a href="#" class="content-imgBox imgBox2">
                             <span class="box2text boxText">
                                 <h4>New Patient?</h4>
                                 Save some time and fill in a New Patient Registration Form online
                             </span>
-                        </div>
-                        <div class="content-imgBox imgBox3">
+                        </a>
+                        <a href="#" class="content-imgBox imgBox3">
                             <span class="box3text boxText">
                                 <h4>Office Hours</h4>
                                 Monday-Friday:
@@ -70,7 +70,7 @@
                                 <br/>
                                 7h30-11h30
                             </span>
-                        </div>
+                        </a>
                     </div>
                     <div class="content-pageWrapper clearfix">
                         <?php include($page_content);?>

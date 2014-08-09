@@ -9,12 +9,12 @@ include '/../includes/Home/NewPatient.php';
 }
 ?>
 
-<h2>
+<h1>
     <?php
     echo lang('Header')
     ?>
-</h2>
-
+</h1>
+<hr/>
 <div>
     <?php
     echo lang('NewPatientPara1')
@@ -22,12 +22,16 @@ include '/../includes/Home/NewPatient.php';
 
 </div>
 
+<br/>
+
 <div>
     <?php
     echo lang('NewPatientPara2')
     ?>
 
 </div>
+
+<br/>
 
 <a href="patientform.php">
     <?php

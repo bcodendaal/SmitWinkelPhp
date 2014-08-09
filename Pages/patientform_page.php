@@ -36,7 +36,7 @@ include '/../includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="text" name="title" /></td>
+                    <input type="text" class="textbox" name="title" /></td>
             </tr>
 
             <tr>
@@ -46,7 +46,7 @@ include '/../includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="text" name="initials" class="validate" /></td>
+                    <input type="text" class="textbox" name="initials" class="validate" /></td>
             </tr>
 
             <tr>
@@ -56,7 +56,7 @@ include '/../includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="text" name="surname" class="validate" /></td>
+                    <input type="text" class="textbox" name="surname" class="validate" /></td>
             </tr>
 
             <tr>
@@ -66,7 +66,7 @@ include '/../includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="text" name="physicaladdress" /></td>
+                    <input type="text" class="textbox" name="physicaladdress" /></td>
             </tr>
 
             <tr>
@@ -76,7 +76,7 @@ include '/../includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="text" name="postaladdress" /></td>
+                    <input type="text" class="textbox" name="postaladdress" /></td>
             </tr>
 
             <tr>
@@ -86,7 +86,7 @@ include '/../includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="text" name="homenumber" /></td>
+                    <input type="text" class="textbox" name="homenumber" /></td>
             </tr>
 
             <tr>
@@ -96,7 +96,7 @@ include '/../includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="text" name="worknumber" /></td>
+                    <input type="text" class="textbox" name="worknumber" /></td>
             </tr>
 
             <tr>
@@ -106,7 +106,7 @@ include '/../includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="text" name="cellnumber" class="validate" /></td>
+                    <input type="text" class="textbox" name="cellnumber" class="validate" /></td>
             </tr>
 
             <tr>
@@ -115,7 +115,7 @@ include '/../includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="text" name="medicalaid" /></td>
+                    <input type="text" class="textbox" name="medicalaid" /></td>
             </tr>
 
             <tr>
@@ -125,7 +125,7 @@ include '/../includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="text" name="medicalaidnumber" /></td>
+                    <input type="text" class="textbox" name="medicalaidnumber" /></td>
             </tr>
 
             <tr>
@@ -135,7 +135,7 @@ include '/../includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="text" name="idnumber" /></td>
+                    <input type="text" class="textbox" name="idnumber" /></td>
             </tr>
 
             <tr>
@@ -145,7 +145,7 @@ include '/../includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="text" name="occupation" /></td>
+                    <input type="text" class="textbox" name="occupation" /></td>
             </tr>
 
             <tr>
@@ -155,7 +155,7 @@ include '/../includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="text" name="employer" /></td>
+                    <input type="text" class="textbox" name="employer" /></td>
             </tr>
 
             <tr>
@@ -165,7 +165,7 @@ include '/../includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="text" name="email" class="validate" /></td>
+                    <input type="text" class="textbox" name="email" class="validate" /></td>
             </tr>
 
             <tr>
@@ -175,7 +175,7 @@ include '/../includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="text" name="nearestfamily" /></td>
+                    <input type="text" class="textbox" name="nearestfamily" /></td>
             </tr>
 
             <tr>
@@ -185,7 +185,7 @@ include '/../includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="text" name="relationship" /></td>
+                    <input type="text" class="textbox" name="relationship" /></td>
             </tr>
         </table>
         
@@ -210,7 +210,7 @@ include '/../includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="text" name="patientsurname" />
+                    <input type="text" class="textbox" name="patientsurname" />
                 </td>
             </tr>
 
@@ -221,7 +221,7 @@ include '/../includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="text" name="patientfullname" />
+                    <input type="text" class="textbox" name="patientfullname" />
                 </td>
             </tr>
 
@@ -232,7 +232,7 @@ include '/../includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="text" name="patientdateofbirth" />
+                    <input type="text" class="textbox" name="patientdateofbirth" />
                 </td>
             </tr>
 
@@ -243,7 +243,7 @@ include '/../includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="text" name="patientidnumber" />
+                    <input type="text"  class="textbox" name="patientidnumber" />
                 </td>
             </tr>
 
@@ -254,7 +254,7 @@ include '/../includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="text" name="patientoccupation" />
+                    <input type="text" class="textbox" name="patientoccupation" />
                 </td>
             </tr>
 
@@ -265,7 +265,7 @@ include '/../includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="text" name="patientcompany" />
+                    <input type="text" class="textbox" name="patientcompany" />
                 </td>
             </tr>
 
@@ -276,7 +276,7 @@ include '/../includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="text" name="patienthomelanguage" />
+                    <input type="text" class="textbox" name="patienthomelanguage" />
                 </td>
             </tr>
 
@@ -287,7 +287,7 @@ include '/../includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="text" name="patientmaritalstatus" />
+                    <input type="text" class="textbox" name="patientmaritalstatus" />
                 </td>
             </tr>
 
@@ -298,7 +298,7 @@ include '/../includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="text" name="patienthomenumber" />
+                    <input type="text" class="textbox" name="patienthomenumber" />
                 </td>
             </tr>
 
@@ -309,7 +309,7 @@ include '/../includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="text" name="patientworknumber" />
+                    <input type="text" class="textbox" name="patientworknumber" />
                 </td>
             </tr>
 
@@ -320,7 +320,7 @@ include '/../includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="text" name="patientcellnumber" />
+                    <input type="text" class="textbox" name="patientcellnumber" />
                 </td>
             </tr>
 
@@ -331,7 +331,7 @@ include '/../includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="text" name="patientmedicaldependantnumber" />
+                    <input type="text" class="textbox" name="patientmedicaldependantnumber" />
                 </td>
             </tr>
         </table>
@@ -373,7 +373,7 @@ include '/../includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="checkbox" name="coronarytrombosis" />
+                    <input type="checkbox" class="textbox" name="coronarytrombosis" />
                 </td>
             </tr>
 
@@ -384,7 +384,7 @@ include '/../includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="checkbox" name="hypertension" />
+                    <input type="checkbox" class="textbox"  name="hypertension" />
                 </td>
             </tr>
 
@@ -395,7 +395,7 @@ include '/../includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="checkbox" name="diabetes" />
+                    <input type="checkbox" class="textbox"  name="diabetes" />
                 </td>
             </tr>
 
@@ -406,7 +406,7 @@ include '/../includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="checkbox" name="kidney" />
+                    <input type="checkbox" class="textbox" name="kidney" />
                 </td>
             </tr>
 
@@ -417,7 +417,7 @@ include '/../includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="checkbox" name="hepatitus" />
+                    <input type="checkbox" class="textbox" name="hepatitus" />
                 </td>
             </tr>
 
@@ -428,7 +428,7 @@ include '/../includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="checkbox" name="aids" />
+                    <input type="checkbox" class="textbox" name="aids" />
                 </td>
             </tr>
 
@@ -439,7 +439,7 @@ include '/../includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="checkbox" name="astma" />
+                    <input type="checkbox" class="textbox" name="astma" />
                 </td>
             </tr>
 
@@ -450,7 +450,7 @@ include '/../includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="text" name="allergies" />
+                    <input type="text" class="textbox" name="allergies" />
                 </td>
             </tr>
 
@@ -461,7 +461,7 @@ include '/../includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="text" name="bleeding" />
+                    <input type="text" class="textbox" name="bleeding" />
                 </td>
             </tr>
 
@@ -472,7 +472,7 @@ include '/../includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="text" name="pregnant" />
+                    <input type="text" class="textbox" name="pregnant" />
                 </td>
             </tr>
 
@@ -483,7 +483,7 @@ include '/../includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="text" name="other" />
+                    <input type="text" class="textbox" name="other" />
                 </td>
             </tr>
 
@@ -494,7 +494,7 @@ include '/../includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="text" name="medication" />
+                    <input type="text" class="textbox" name="medication" />
                 </td>
             </tr>
 
@@ -505,7 +505,7 @@ include '/../includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="text" name="smoke" />
+                    <input type="text"class="textbox"  name="smoke" />
                 </td>
             </tr>
 
@@ -516,7 +516,7 @@ include '/../includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="text" name="osteoporosis" />
+                    <input type="text" class="textbox" name="osteoporosis" />
                 </td>
             </tr>
         </table>

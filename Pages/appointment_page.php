@@ -38,7 +38,7 @@ include '/../includes/Home/Appointment.php';
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3"><input type="text" name="first_name" class="validate" /></div>
+                <div class="col-md-3"><input type="text" name="first_name" class="validate textbox" /></div>
             </div>            
         </div>
 
@@ -52,7 +52,7 @@ include '/../includes/Home/Appointment.php';
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3"><input type="text" name="surname_name" class="validate" /></div>
+                <div class="col-md-3"><input type="text"  name="surname_name" class="validate textbox" /></div>
             </div>            
         </div>
 
@@ -66,7 +66,7 @@ include '/../includes/Home/Appointment.php';
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3"><input type="text" name="email" class="validate" /></div>
+                <div class="col-md-3"><input type="text" name="email" class="validate textbox" /></div>
             </div>            
         </div>
 
@@ -80,7 +80,7 @@ include '/../includes/Home/Appointment.php';
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3"><input type="text" name="contact_number" class="validate" /></div>
+                <div class="col-md-3"><input type="text"  name="contact_number" class="validate textbox" /></div>
             </div>            
         </div>
 
@@ -127,14 +127,14 @@ include '/../includes/Home/Appointment.php';
                         echo lang('MedicalAid')
                         ?>
 
-                        <input type="radio" name="medicalaid" class="validate" />
+                        <input type="radio" name="medicalaid" class="validate textbox" />
                     </div>
                     <div>
                         <?php
                         echo lang('Private')
                         ?>
 
-                        <input type="radio" name="medicalaid" class="validate" />
+                        <input type="radio" name="medicalaid" class="validate textbox" />
                     </div>
                 </div>
             </div>            
@@ -152,7 +152,7 @@ include '/../includes/Home/Appointment.php';
             <div class="row">
                 <div class="col-md-3">
                     <div class="input-group date">
-                        <input type="text" class="form-control validate"><span class="input-group-addon"><i class="glyphicon glyphicon-th" id="calendarpop"></i></span>
+                        <input type="text" class="textbox form-control validate"><span class="input-group-addon"><i class="glyphicon glyphicon-th" id="calendarpop"></i></span>
                     </div>
                 </div>                
             </div>            
@@ -168,7 +168,7 @@ include '/../includes/Home/Appointment.php';
                 </div>
             </div>
             <div class="row">               
-                <div class="col-md-3"><input type="text" name="reason" /></div>
+                <div class="col-md-3"><input type="text" class="textbox" name="reason" /></div>
             </div>            
         </div>
 

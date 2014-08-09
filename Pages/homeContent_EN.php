@@ -13,4 +13,6 @@ The four dental practitioners in this northern suburbs clinic share over 90 year
     <p>Sound human relations – with patients, suppliers, the medical fraternity, staff and other stakeholders – is an uncompromised core value at Drs Smit &amp; Winkel. Patients therefore enjoy quality results, excellent after care and follow-up as a result of established relationships with physicians, maxillo-facial surgeons, orthodontists, periodontists and dental technicians. The staff complement comprises two male dentists; two female dentists; two oral hygienists; and seven supporting and administrative staff - several with many years of loyal service in the practise.</p>
     <p>Drs Smit &amp; Winkel has been operating for over twenty years and is a well-established landmark on the corner of Bill Bezuidenhout Drive and Mountainview Avenue.</p>
     <p>Each and every member of our team at Drs Smit &amp; Winkel look forward to welcoming you as a patient – be it new or recurrent. Click on “Contact us” to make an online or telephonic appointment.</p>
+    
+    <img src="../Theme/Images/fadedDentist.png" alt=""/>
 </div>

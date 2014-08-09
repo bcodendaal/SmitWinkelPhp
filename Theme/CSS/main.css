@@ -20,7 +20,14 @@ h1, h2, h3, h4, h5{
     margin: 5px 0px 5px 0px;
 }
 
+a{
+    cursor:pointer;
+     color: #646464;
+}
 
+.textbox{
+    border-radius: 5px;
+}
 
 
 
@@ -96,6 +103,8 @@ Navigation
     padding: 10px 10px 10px 10px;
     max-width: 1000px;
     margin: auto;
+    z-index: 9999;
+    border-bottom: 2px solid rgb(226, 226, 226);
 }
 
     .nav > li {
@@ -145,8 +154,7 @@ Content
 }
 
 .content-pageWrapper{
-    float: right;
-    width: 76%;
+    position:relative;
     background-position-x: left;
     background-position-y: top;
     padding: 10px;
@@ -167,6 +175,7 @@ Content
     background-size: cover;
     position: relative;
     display:block;
+    z-index:100;
 
 }
 
@@ -186,7 +195,9 @@ Content
     height: 255px;
 }
 .content-imgBoxWrapper{
-    float:left
+    float:left;
+    position:relative;
+    margin:0px 15px 0px 0px;
 }
 
 .boxText{
@@ -251,8 +262,10 @@ Home
    
 }
 
-    
-    
+.homeImage{
+    width: 35%;
+    float: right;
+}
     
     
     
@@ -345,8 +358,8 @@ Home
     }
     
     .content-pageWrapper {
-        float: left;
-        width: 70%;
+/*        float: left;
+        width: 70%;*/
     }
 }
 
@@ -436,12 +449,21 @@ Home
     }
     
     .content-pageWrapper{
-        float: left;
-        width: 66%;
+
     }
     
     .content-container{ 
         background-image: url('../Images/seethrough.png');
+    }
+    
+                
+     /***********************
+    Home
+    ***********************/   
+    
+    .homeImage {
+        width: 58%;
+        float:none;
     }
 }
 
@@ -567,21 +589,19 @@ Home
     ***********************/    
     .content-wrapper {
         top: 73px;
-        bottom: 46px;
     }
     
     .content-pageWrapper{
-        clear: both;
-        width: auto;
-        padding: 0px 20px 20px 20px;
+
     }
     
     .content-imgBoxWrapper{
-        display:none;
+
     }
     
     .content-container{ 
         background-image: url('../Images/seethrough.png');
+        min-height: 816px;
     }
     
     /***********************
@@ -594,7 +614,22 @@ Home
     }
     
 }
-
+@media(max-width:500px)
+{
+      .content-pageWrapper{
+        clear: both;
+        width: auto;
+        padding: 0px 20px 20px 20px;
+    }
+    
+    .content-imgBoxWrapper{
+        display:none;
+    }
+    
+    .homeImage {
+        width: 100%;
+    }
+}
 
 @media(max-width:350px)
 {

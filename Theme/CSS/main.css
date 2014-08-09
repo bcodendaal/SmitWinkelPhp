@@ -16,6 +16,9 @@ body{
     margin:auto;
 }
 
+h1, h2, h3, h4, h5{
+    margin: 5px 0px 5px 0px;
+}
 
 
 
@@ -162,6 +165,9 @@ Content
     background-position-y: top;
     background-repeat: no-repeat; 
     background-size: cover;
+    position: relative;
+    display:block;
+
 }
 
 .imgBox1{
@@ -183,7 +189,25 @@ Content
     float:left
 }
 
+.boxText{
+    position:absolute;
+    font-size: 14px;
+    padding: 0px 16px 0px 10px;
+    text-align: justify;
+}
+.box1text{
+    bottom: 26px;
+}
 
+.box2text{
+    bottom: 19px;
+}
+
+.box3text{
+    bottom: 117px;
+    margin-left: 14px;
+    text-align: center;
+}
 /***********************
 Footer
 ***********************/

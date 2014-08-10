@@ -75,7 +75,56 @@
                     <div class="content-pageWrapper clearfix">
                         <?php include($page_content);?>
                     </div>
+                
+                <div class="smallImages-wrapper">
+                    <div class="smallImageContainer">
+                         <a>
+                            <div>
+                                <img src="Theme/Images/smallImage1.png" class="smallImage" alt=""/>
+                            </div>
+                           <span class="smallImage-text">
+                                <h4>Book an appointment</h4>
+                                Click here and fill in a form to make an appointment
+                            </span>
+                        </a>
+                    </div>
+                    <div style="clear:both">&nbsp;</div>
+                    <div class="smallImageContainer">
+                        <a>
+                            <div>
+                                <img src="Theme/Images/smallImage1.png" class="smallImage" alt=""/>
+                            </div>
+                            <span class="smallImage-text">
+                                <h4>New Patient?</h4>
+                                Save some time and fill in a New Patient Registration Form online
+                            </span>
+                        </a>
+                    </div>
+                    <div style="clear:both">&nbsp;</div>
+                  <div class="smallImageContainer">
+                        <a>
+                            <div>
+                                <img src="Theme/Images/smallImage1.png" class="smallImage" alt=""/>
+                            </div>
+                            <span class="smallImage-text">
 
+                                <h4>Office Hours</h4>
+
+                                Monday-Friday:
+                                <br/>
+                                7h30-17h30
+                                <br/>
+
+                                Saturdays: 
+                                <br/>
+                                (by appointment only) 
+                                <br/>
+                                7h30-11h30
+                            </span>
+                            <div style="clear:both">&nbsp;</div>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
         <div id="footer" class="footer-wrapper">

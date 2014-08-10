@@ -29,6 +29,9 @@ a{
     border-radius: 5px;
 }
 
+hr{
+    margin:20px 0px 20px 0px;
+}
 
 
 
@@ -85,9 +88,6 @@ Header
     background-image: url('../Images/greenBtnClick.png');
     background-repeat: no-repeat;
 }
-
-
-
 
 
 /***********************
@@ -216,9 +216,29 @@ Content
 }
 
 .box3text{
-    bottom: 117px;
-    margin-left: 14px;
+    bottom: 78px;
+    margin-left: 13px;
     text-align: center;
+}
+
+.smallImages-wrapper{
+    display:none;
+}
+
+.smallImageContainer{
+    overflow:auto;
+    overflow: auto;
+    padding: 0px 10px 0px 10px;
+}
+
+.smallImage {
+    width: 100px;   
+    float: left;
+    margin: 0px 8px 8px 0px;
+}
+
+.smallImage-text{
+    float:left;
 }
 /***********************
 Footer
@@ -636,6 +656,10 @@ Home
     
     .homeImage {
         width: 100%;
+    }
+    
+    .smallImages-wrapper{
+        display:block;
     }
 }
 

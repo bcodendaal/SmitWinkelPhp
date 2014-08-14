@@ -26,7 +26,7 @@ include 'includes/Home/Appointment.php';
     ?>
 </p>
 
-<form method="POST" id="appointmentform" action="Appointment">
+<form method="POST" id="appointmentform" action="Pages/appointment_email.php">
     <div class="container">
         <!-- First Name -->
         <div class="row">
@@ -152,7 +152,7 @@ include 'includes/Home/Appointment.php';
             <div class="row">
                 <div class="col-md-3">
                     <div class="input-group date">
-                        <input type="text" class="textbox form-control validate"><span class="input-group-addon"><i class="glyphicon glyphicon-th" id="calendarpop"></i></span>
+                        <input type="text" name="when" class="textbox form-control validate"><span class="input-group-addon"><i class="glyphicon glyphicon-th" id="calendarpop"></i></span>
                     </div>
                 </div>                
             </div>            

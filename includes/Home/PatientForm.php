@@ -82,7 +82,21 @@ Do you take treatment for Osteoporosis?',
   
   'Employer' => '
    Employer',
-  
+        
+         'FamilyAddress' => '
+   Address',
+        
+         'FamilyCode' => 'Code',
+        
+         'FamilyPhone' => '
+   Phone Number',
+        
+         'FamilyCell' => '
+   CellNumber',
+        
+         'RecommendedBy' => '
+   Recommended By',        
+        
   'Header' => '
    Patient Information Sheet',
   

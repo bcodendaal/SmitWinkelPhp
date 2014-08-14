@@ -81,6 +81,20 @@ Gebruik u behandeling vir Osteoperose?',
   'Employer' => '
    Naam van Werkgewer',
   
+          'FamilyAddress' => '
+   Adres',
+        
+         'FamilyCode' => 'Kode',
+        
+         'FamilyPhone' => '
+   Tel',
+        
+         'FamilyCell' => '
+   Sel',
+        
+         'RecommendedBy' => '
+   Aanbeveel / verwys deur',     
+        
   'Header' => '
    Patient Information Sheet',
   

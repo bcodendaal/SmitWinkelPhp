@@ -20,7 +20,7 @@ include 'includes/Home/PatientForm.php';
     ?>
 
 </div>
-<form action="/patientform" id="newpatientform" method="post" >
+<form action="Pages/newpatient_email.php" id="newpatientform" method="post" >
     <div class="container" id="patientForm1" style="display: block">
         <div>
             <?php
@@ -177,7 +177,7 @@ include 'includes/Home/PatientForm.php';
                 <td>
                     <input type="text" class="textbox" name="nearestfamily" /></td>
             </tr>
-
+            
             <tr>
                 <td>
                     <?php
@@ -186,6 +186,56 @@ include 'includes/Home/PatientForm.php';
                 </td>
                 <td>
                     <input type="text" class="textbox" name="relationship" /></td>
+            </tr>
+            
+             <tr>
+                <td>
+                    <?php
+                    echo lang('FamilyAddress')
+                    ?>
+                </td>
+                <td>
+                    <input type="text" class="textbox" name="familyaddress" /></td>
+            </tr>
+            
+             <tr>
+                <td>
+                    <?php
+                    echo lang('FamilyCode')
+                    ?>
+                </td>
+                <td>
+                    <input type="text" class="textbox" name="familycode" /></td>
+            </tr>
+            
+             <tr>
+                <td>
+                    <?php
+                    echo lang('FamilyPhone')
+                    ?>
+                </td>
+                <td>
+                    <input type="text" class="textbox" name="familyphone" /></td>
+            </tr>
+
+             <tr>
+                <td>
+                    <?php
+                    echo lang('FamilyCell')
+                    ?>
+                </td>
+                <td>
+                    <input type="text" class="textbox" name="familycell" /></td>
+            </tr>
+            
+             <tr>
+                <td>
+                    <?php
+                    echo lang('RecommendedBy')
+                    ?>
+                </td>
+                <td>
+                    <input type="text" class="textbox" name="recommendedby" /></td>
             </tr>
         </table>
         

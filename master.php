@@ -1,30 +1,29 @@
- <?php
-        if (!isset($_SESSION)) {
-            session_start();
-        }
+<?php
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
 
-        if (!array_key_exists('lang', $_SESSION)) {
-            $currLang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
+if (!isset($_SESSION)) {
+    session_start();
+}
+
+if (!array_key_exists('lang', $_SESSION)) {
+    $currLang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
+    $_SESSION['lang'] = $currLang;
+}
+if ($_SESSION['lang'] == "") {
+    $_SESSION['lang'] = "en";
+    $currLang = "en";
+} else {
+    $currLang = $_SESSION['lang'];
+    if (isset($_POST)) {
+        if (array_key_exists('langtoggle', $_POST)) {
+            $currLang = $_POST['langtoggle'];
             $_SESSION['lang'] = $currLang;
         }
-        if ($_SESSION['lang'] == "") {
-            $_SESSION['lang'] = "en";
-            $currLang = "en";
-        } else {
-            $currLang = $_SESSION['lang'];
-            if(isset($_POST))
-            {
-                if(array_key_exists('langtoggle',$_POST))
-                {
-                $currLang = $_POST['langtoggle'];
-                $_SESSION['lang'] = $currLang;
-                }
-            }
-        }
-        
-        
-        ?>
-        
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -43,11 +42,11 @@
         <div class="page-wrapper">
             <div id="header" class="header-wrapper clearfix">
                 <div class="header-container container clearfix">
-                    <?php include('Pages/headerContent.php') ?>
+<?php include('Pages/headerContent.php') ?>
                 </div>
             </div>
             <div id="navigation">
-                <?php include('Pages/navContent.php') ?>
+                    <?php include('Pages/navContent.php') ?>
             </div>
             <div id="content" class="content-wrapper">
                 <div class="content-container container">
@@ -84,7 +83,7 @@
                         </a>
                     </div>
                     <div class="content-pageWrapper clearfix">
-                        <?php include($page_content); ?>
+<?php include($page_content); ?>
                     </div>
 
                     <div class="smallImages-wrapper">

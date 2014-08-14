@@ -1,11 +1,11 @@
 <?php
 if($_SESSION['lang'] == 'af')
 {
-include '/../includes/Home/Success.php';
+include 'includes/Home/Success.php';
 }
 else
 {
-include '/../includes/Home/Success.af.php';    
+include 'includes/Home/Success.af.php';    
 }
 ?>
 

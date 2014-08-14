@@ -43,11 +43,11 @@
         <div class="page-wrapper">
             <div id="header" class="header-wrapper clearfix">
                 <div class="header-container container clearfix">
-<?php include('Pages/headerContent_EN.php') ?>
+                    <?php include('Pages/headerContent.php') ?>
                 </div>
             </div>
             <div id="navigation">
-<?php include('Pages/navContent_EN.php') ?>
+                <?php include('Pages/navContent.php') ?>
             </div>
             <div id="content" class="content-wrapper">
                 <div class="content-container container">
@@ -84,7 +84,7 @@
                         </a>
                     </div>
                     <div class="content-pageWrapper clearfix">
-<?php include($page_content); ?>
+                        <?php include($page_content); ?>
                     </div>
 
                     <div class="smallImages-wrapper">

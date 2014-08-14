@@ -5,7 +5,7 @@
 </div>
 <div class="translate-container clearfix">
      <?php if($currLang == "en"){ ?>
-    <form method="POST" action="">   
+             <form method="POST" action="">   
                 <input type="hidden" name="langtoggle" value="af" />
                 <input  class="btn-translation" type="submit"  value="Afrikaans" />
             </form>
@@ -20,4 +20,3 @@
         <?php }  ?>
   <!--<a  class="btn-translation" href="/af">Afrikaans</a> -->
 </div>
-<img style="display: none" src="Theme/Images/greenBtnClick.png" alt=""/>

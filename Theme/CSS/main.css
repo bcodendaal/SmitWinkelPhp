@@ -8,6 +8,11 @@ body{
     color: #646464;
     min-width: 250px;
 }
+
+input{
+    font-family: Cambria, 'Times New Roman';
+}
+
 .page-wrapper{
     width: 100%;
 }
@@ -71,24 +76,19 @@ Header
     margin: 9px 0px 0px 0px;
 }
 .btn-translation{
-    background-image: url('../Images/greenBtn.png');
-    background-position-x: left;
-    background-position-y: top;
+    background-color: rgb(131, 182, 165);
+    border-radius: 5px;
     background-repeat: no-repeat;
     height: 32px;
     width: 79px;
     text-align: center;
-    padding-top: 10px;
     float: right;
     margin-top: 17px;
     text-decoration: none;
-    color:  rgb(235, 235, 235);
+    font-family: cambria;
+    font-size: 14px;
+    color:#646464;
 }
-.btn-translation:active{
-    background-image: url('../Images/greenBtnClick.png');
-    background-repeat: no-repeat;
-}
-
 
 /***********************
 Navigation
@@ -420,10 +420,7 @@ Home
     }
     
     .btn-translation {
-        background-image: url('../Images/greenBtn.png');
         height: 32px;
-        width: 65px;
-        padding-top: 9px;        
         margin-top: 12px;
         font-size: 14px;
         background-size: 66px;
@@ -593,23 +590,23 @@ Home
     
     .btn-translation-sm {
         margin: 0px 10px 0px 0px;
-        padding: 0px 0px 0px 9px;
         cursor: pointer;
         display: block;
         float: right;
-        border-radius: 4px;
-        box-shadow: 1px 1px 2px 0px;
-        padding: 0px 5px 0px 5px;
-        background-color: rgb(219, 219, 219);
+        color:#646464;
+        font-size: 14px;
     }
-
-        .btn-translation-sm a {
-            text-decoration: none;
-            color: #646464;
-        }
-
         
-        
+    .btn-translation-formbtn
+    {
+        font-family: cambria;
+        font-size: 14px;
+        color:#646464;
+        background-color: rgb(219, 219, 219);
+        border-radius:5px;
+        margin: -1px 0px 0px 0px;
+        padding: 0px 3px 0px 3px;
+    }
         
         
     /***********************

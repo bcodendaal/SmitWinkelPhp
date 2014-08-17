@@ -12,26 +12,25 @@ include 'includes/Home/Error.php';
 
 <h2>
     <?php
-    echo lang('Header')
+    echo lang('ErrorHeader')
     ?>
-    @Error.ErrorHeader</h2>
+</h2>
 
 <div>    
     <span>
         <?php
-    echo lang('Header')
+        echo lang('Sorry')
     ?>
-        @Error.Sorry @ViewData["Message"] 
+
         <?php
-    echo lang('Header')
+        echo lang('ToOurPractice')
     ?>
-        @Error.ToOurPractice </span>
+        </span>
 </div>
 <div>
-   <a href="Index">
+   <a href="index.php">
        <?php
-    echo lang('Header')
+    echo lang('Home')
     ?>
-       @SmitWinkel.Resources.Common.Home</a> 
-    <input type="hidden" value="@ViewData["Error"]" />
+       </a>     
 </div>

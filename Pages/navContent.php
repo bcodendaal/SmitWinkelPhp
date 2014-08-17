@@ -19,11 +19,21 @@
         <span class="nav-btn ">
         </span>
         <ul class="nav">
-            <li><a href="index.php">Home</a></li>
-            <li><a href="ourteam.php">Our Team</a></li>
-            <li><a href="services.php">Dental Services</a></li>
-            <li><a href="newpatient.php">New Patient</a></li>
-            <li><a href="appointment.php">Make an appointment</a></li>
+            <li><a href="index.php"><?php
+                                    echo commonlang('Home')
+                                    ?></a></li>
+            <li><a href="ourteam.php"><?php
+                                    echo commonlang('OurTeam')
+                                    ?></a></li>
+            <li><a href="services.php"><?php
+                                    echo commonlang('DentalServices')
+                                    ?></a></li>
+            <li><a href="newpatient.php"><?php
+                                    echo commonlang('NewPatient')
+                                    ?></a></li>
+            <li><a href="appointment.php"><?php
+                                    echo commonlang('MakeAppointment')
+                                    ?></a></li>
         </ul>
     </nav>
 </div>

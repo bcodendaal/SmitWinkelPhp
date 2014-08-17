@@ -1,5 +1,14 @@
 <?php
 
+$first_name = "";
+$surname_name = "";
+$email = "";
+$contact_number = "";
+$contact = "";
+$medicalaid = "";
+$when = "";
+$reason = "";
+
 if (isset($_POST)) {
     if (array_key_exists('first_name', $_POST)) {
         $first_name = $_POST['first_name'];
@@ -18,7 +27,7 @@ if (isset($_POST)) {
     }
     if (array_key_exists('medicalaid', $_POST)) {
         $medicalaid = $_POST['medicalaid'];
-    }    
+    }
     if (array_key_exists('when', $_POST)) {
         $when = $_POST['when'];
     }
@@ -29,11 +38,8 @@ if (isset($_POST)) {
 
 
 $to = "pieter.roodt@gmail.com";
-$fn = "Fisrt Name";
-$ln = "Last Name";
-$name = $fn . ' ' . $ln;
 $from = "dentist@smitwinkel.com";
-$subject = "Welcome to Website";
+$subject = "Nuwe Afspraak";
 $message = " 
     Naam: $first_name 
     Van: $surname_name
@@ -44,6 +50,19 @@ $message = "
     Datum: $when
     Rede: $reason    
 ";
-include('newsmtp/smtpwork.php');
+
+$headers = 'From: dentist@smitwinkel.com' . "\r\n" .
+        'Reply-To: dentist@smitwinkel.com' . "\r\n" .
+        'X-Mailer: PHP/' . phpversion();
+
+
+try {
+    mail($to, $subject, $message, $headers);
+    header('Location: ../success.php');
+    die();
+} catch (Exception $e) {
+    header('Location: ../error.php');
+    die();
+}
 ?>
 

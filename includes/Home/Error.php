@@ -1,6 +1,6 @@
     <?php function lang($phrase){static $_L = array(
-  'Appointment' => '
-   appointment',
+  'Home' => '
+   Home',
   
   'ErrorHeader' => '
    Error',
@@ -9,7 +9,7 @@
    patient details',
   
   'Sorry' => '
-   Something seems to have gone wrong while submitting your ',
+   Something seems to have gone wrong while submitting your form ',
   
   'ToOurPractice' => '
    to our practice. We sincerely apologise for the inconvenience caused. Please try again later'

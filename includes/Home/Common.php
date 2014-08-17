@@ -6,7 +6,7 @@
      'DentalServices' => 'Dental Services',
      'NewPatient' => 'New Patient',
      'MakeAppointment' => 'Make an appointment',
-    
+        'ContactUs' => 'Contact Us',
   
     'BookHeader' => 'Book an appointment',    
     'BookContent' => 'Click here and fill in a form to make an appointment',

@@ -34,6 +34,9 @@
             <li><a href="appointment.php"><?php
                                     echo commonlang('MakeAppointment')
                                     ?></a></li>
+            <li><a href="contactus.php"><?php
+                                    echo commonlang('ContactUs')
+                                    ?></a></li>
         </ul>
     </nav>
 </div>

@@ -6,6 +6,7 @@
      'DentalServices' => 'Dienste',
      'NewPatient' => 'Nuwe Pasiënt',
      'MakeAppointment' => 'Maak \'n afspraak',
+    'ContactUs' => 'Kontak Ons',
     
     
     'BookHeader' => 'Maak \'n afspraak',    

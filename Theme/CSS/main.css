@@ -114,7 +114,7 @@ Navigation
         .nav > li > a {
             text-decoration: none;
             color: rgb(167, 167, 167);
-            padding: 0px 55px 0px 55px;
+            padding: 0px 35px 0px 35px;
             border-right: rgb(228, 228, 228) solid 1px;
         }
 
@@ -305,6 +305,21 @@ Home
 
 
 
+/***********************
+Contact us
+***********************/
+.map{
+    border: 0;
+    width: 55%;
+    /* border-radius: 10px; */
+    border: 5px solid white;
+    margin: auto;
+    position: relative;
+}
+
+
+
+
 /********************************************************************************/
 @media(max-width:935px)
 {
@@ -358,7 +373,7 @@ Home
             .nav > li > a {
                 text-decoration: none;
                 color: rgb(167, 167, 167);
-                padding: 0px 30px 0px 30px;
+                padding: 0px 20px 0px 20px;
             }
 
             .nav > li:last-child > a {
@@ -658,6 +673,16 @@ Home
     .smallImages-wrapper{
         display:block;
     }
+    
+    
+    /***********************
+    Contact us
+    ***********************/
+    .map{
+        border: 0;
+        width: 100%;
+    }
+
 }
 
 @media(max-width:350px)
@@ -672,7 +697,7 @@ Home
     }
     
     .header-container-text {
-        font-size: 15px;
+        font-size: 14px;
         font-weight: bold;
         margin: 10px 0px 0px 0px;
     }

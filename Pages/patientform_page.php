@@ -46,7 +46,7 @@ include 'includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="text" class="textbox" name="initials" class="validate" /></td>
+                    <input type="text" class="textbox validate" name="initials" /></td>
             </tr>
 
             <tr>
@@ -56,7 +56,7 @@ include 'includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="text" class="textbox" name="surname" class="validate" /></td>
+                    <input type="text" class="textbox validate" name="surname" class="validate" /></td>
             </tr>
 
             <tr>
@@ -106,7 +106,7 @@ include 'includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="text" class="textbox" name="cellnumber" class="validate" /></td>
+                    <input type="text" class="textbox validate" name="cellnumber" /></td>
             </tr>
 
             <tr>
@@ -165,7 +165,7 @@ include 'includes/Home/PatientForm.php';
                     ?>
                 </td>
                 <td>
-                    <input type="text" class="textbox" name="email" class="validate" /></td>
+                    <input type="text" class="textbox validate" name="email" /></td>
             </tr>
 
             <tr>
@@ -570,8 +570,13 @@ include 'includes/Home/PatientForm.php';
                 </td>
             </tr>
         </table>
+        <button id="prev2">
+            <?php
+            echo lang('Previous')
+            ?>
+        </button>
     </div>
-
+  
     <input id="submitform" type="submit" style="display: none" />
 
 </form>
@@ -604,6 +609,14 @@ include 'includes/Home/PatientForm.php';
             $('#patientForm2').hide();
             $('#patientForm3').hide();
             $('#patientForm1').show();
+            $('#submitform').hide();
+            return false;
+        });
+        
+         $('#prev2').click(function() {
+            $('#patientForm2').show();
+            $('#patientForm3').hide();
+            $('#patientForm1').hide();
             $('#submitform').hide();
             return false;
         });

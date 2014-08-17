@@ -15,7 +15,7 @@
    Sukses',
   
   'Your' => '
-   U',
+   U vorm ',
         
         'Home' => 'Tuis'
   

@@ -23,7 +23,7 @@
         </br></br>                        
                                 Saturdays: 
         </br>                        
-                                (by appointment only) 
+                                (Only oral hygienist by appointment) 
         </br>
                                 7h30-11h30                            
 '  

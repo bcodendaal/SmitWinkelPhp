@@ -92,10 +92,11 @@ if ($_SESSION['lang'] == 'af') {
                                 <h4>
                                     <?php
                                     echo commonlang('OfficeHoursHeader')
-                                    ?></h4>
-                               <?php
-                                    echo commonlang('OfficeHoursContent')
                                     ?>
+                                </h4>
+                               <?php
+                                echo commonlang('OfficeHoursContent')
+                                ?>
                             </span>
                         </a>
                     </div>
@@ -110,8 +111,14 @@ if ($_SESSION['lang'] == 'af') {
                                     <img src="Theme/Images/smallImage1.png" class="smallImage" alt=""/>
                                 </div>
                                 <span class="smallImage-text">
-                                    <h4>Book an appointment</h4>
-                                    Click here and fill in a form to make an appointment
+                                <h4>
+                                    <?php
+                                    echo commonlang('BookHeader')
+                                    ?>
+                                </h4>
+                                <?php
+                                echo commonlang('BookContent')
+                                ?>
                                 </span>
                             </a>
                         </div>
@@ -122,8 +129,15 @@ if ($_SESSION['lang'] == 'af') {
                                     <img src="Theme/Images/smallImage1.png" class="smallImage" alt=""/>
                                 </div>
                                 <span class="smallImage-text">
-                                    <h4>New Patient?</h4>
-                                    Save some time and fill in a New Patient Registration Form online
+                                <h4>
+                                    <?php
+                                    echo commonlang('NewPatientHeader')
+                                    ?>
+                                </h4>
+
+                                <?php
+                                echo commonlang('NewPatientContent')
+                                ?>     
                                 </span>
                             </a>
                         </div>
@@ -134,19 +148,13 @@ if ($_SESSION['lang'] == 'af') {
                                     <img src="Theme/Images/smallImage1.png" class="smallImage" alt=""/>
                                 </div>
                                 <span class="smallImage-text">
-
-                                    <h4>Office Hours</h4>
-
-                                    Monday-Friday:
-                                    <br/>
-                                    7h30-17h30
-                                    <br/>
-
-                                    Saturdays: 
-                                    <br/>
-                                    (by appointment only) 
-                                    <br/>
-                                    7h30-11h30
+                                    <h4>
+                                    <?php
+                                    echo commonlang('OfficeHoursHeader')
+                                    ?></h4>
+                                    <?php
+                                    echo commonlang('OfficeHoursContent')
+                                    ?>
                                 </span>
                                 <div style="clear:both">&nbsp;</div>
                             </a>

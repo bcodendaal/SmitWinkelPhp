@@ -9,13 +9,7 @@
     Western Cape<br/>
     7550<br/>
     South Africa',
-
-    'Emergency' => '
-     Emergencies',
-
-    'EmergencyNumber' => '
-     083 444 5922',
-
+  
     'Wheelchair' => '
      Wheelchair Friendly  <br/>
      Parking On-site!',

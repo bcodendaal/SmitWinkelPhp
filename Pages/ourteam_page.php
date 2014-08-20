@@ -52,7 +52,7 @@ include 'includes/Home/OurTeam.php';
           <?php
         echo lang('OralHygienist1')
     ?>
-        
+    <br/>
          <?php
         echo lang('OralHygienist2')
     ?>
@@ -115,6 +115,13 @@ include 'includes/Home/OurTeam.php';
           
          <?php
         echo lang('AuxilaryStaff4')
+    ?>
+    </div>
+    
+    <div>
+          
+         <?php
+        echo lang('AuxilaryStaff5')
     ?>
     </div>
 </div>

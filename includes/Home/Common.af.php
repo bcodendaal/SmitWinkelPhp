@@ -1,5 +1,5 @@
 <?php function commonlang($phrase){static $_L = array(
-    'MainHeader' => 'Tandheelkundiges',
+    'MainHeader' => 'Tandartse',
   
        'Home' => 'Tuis',
      'OurTeam' => 'Ons Span',
@@ -25,7 +25,7 @@
         </br>                        </br>
                                 Saterdae: 
         </br>                        
-                                (met afrspraak alleenlik)                                 
+                                (Slegs mondhigiëniste per afrspraak)                                 
 </br>
                                 7h30-11h30                            
 '  

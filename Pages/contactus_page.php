@@ -41,16 +41,7 @@ include 'includes/Home/ContactUs.php';
         ?>
         </h2>
     </div>
-    <div>
-        <?php
-            echo lang('Emergency')
-        ?>
-    </div>
-        <div>
-        <?php
-            echo lang('EmergencyNumber')
-        ?>
-    </div>
+
         <div>
         <?php
             echo lang('Tel')

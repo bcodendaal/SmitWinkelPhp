@@ -65,7 +65,7 @@ if ($_SESSION['lang'] == 'af') {
 
                     <div class="content-imgBoxWrapper clearfix">
 
-                        <a href="#" class="content-imgBox imgBox1">
+                        <a href="appointment.php" class="content-imgBox imgBox1">
                             <span class="box1text boxText">
                                 <h4>
                                     <?php
@@ -78,7 +78,7 @@ if ($_SESSION['lang'] == 'af') {
                             </span>
                         </a>
 
-                        <a href="#" class="content-imgBox imgBox2">
+                        <a  href="newpatient.php" class="content-imgBox imgBox2">
                             <span class="box2text boxText">
                                 <h4>
                                     <?php

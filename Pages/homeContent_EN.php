@@ -14,5 +14,5 @@ The four dental practitioners in this northern suburbs clinic share over 90 year
     <p>Drs Smit &amp; Winkel has been operating for over twenty years and is a well-established landmark on the corner of Bill Bezuidenhout Drive and Mountainview Avenue.</p>
     <p>Each and every member of our team at Drs Smit &amp; Winkel look forward to welcoming you as a patient – be it new or recurrent. Click on “Contact us” to make an online or telephonic appointment.</p>
     
-    <img src="../Theme/Images/fadedDentist.png" alt=""/>
+    <img src="../Theme/Images/home1.png" alt=""/>
 </div>

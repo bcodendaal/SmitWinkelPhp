@@ -8,7 +8,6 @@ else
 include 'includes/Home/OurTeam.php';
 }
 ?>
-
 <h1>
     <?php
     echo lang('Header')
@@ -16,11 +15,14 @@ include 'includes/Home/OurTeam.php';
 </h1>
 <hr/>
 <div>
-    <h2>
+    <img class="img-ourstaff"src="Theme/Images/OurStaff.png" alt=""/>
+</div>
+<div class="staffSection">
+    <h3>
          <?php
         echo lang('DentistsSubHeader')
     ?>
-    </h2>
+    </h3>
     <div>
          <?php
         echo lang('Dentist1')
@@ -41,12 +43,13 @@ include 'includes/Home/OurTeam.php';
         echo lang('Dentist4')
     ?>
     </div>
-    <br/>
-    <h2>
+</div>
+<div class="staffSection">
+    <h3>
           <?php
         echo lang('OralHygienistSubHeader')
     ?>
-    </h2>
+    </h3>
     
     <div>
           <?php
@@ -57,38 +60,13 @@ include 'includes/Home/OurTeam.php';
         echo lang('OralHygienist2')
     ?>
     </div>
-    <br/>
-    <h2>
-           <?php
-        echo lang('ReceptionAdminSubHeader')
-    ?>
-    </h2>
-    <div>
-          
-         <?php
-        echo lang('ReceptionAdmin1')
-    ?>
-    </div>
-    
-     <div>
-          
-         <?php
-        echo lang('ReceptionAdmin2')
-    ?>
-    </div>
-    
-    <div>
-          
-         <?php
-        echo lang('ReceptionAdmin3')
-    ?>
-    </div>
-    <br/>
-    <h2>
+</div>
+<div class="staffSection">
+    <h3>
            <?php
         echo lang('AuxilaryStaffSubHeader')
     ?>
-    </h2>
+    </h3>
     
       <div>
           
@@ -122,6 +100,34 @@ include 'includes/Home/OurTeam.php';
           
          <?php
         echo lang('AuxilaryStaff5')
+    ?>
+    </div>
+</div>
+<!--<div style="clear: both">&nbsp;</div>-->
+<div class="staffSection">
+    <h3>
+           <?php
+        echo lang('ReceptionAdminSubHeader')
+    ?>
+    </h3>
+    <div>
+          
+         <?php
+        echo lang('ReceptionAdmin1')
+    ?>
+    </div>
+    
+     <div>
+          
+         <?php
+        echo lang('ReceptionAdmin2')
+    ?>
+    </div>
+    
+    <div>
+          
+         <?php
+        echo lang('ReceptionAdmin3')
     ?>
     </div>
 </div>

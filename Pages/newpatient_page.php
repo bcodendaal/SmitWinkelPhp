@@ -38,3 +38,6 @@ include 'includes/Home/NewPatient.php';
     echo lang('Form')
     ?>
 </a>
+<div>&nbsp;</div>
+<img style="width: 342px;
+margin: auto;"src="Theme/Images/newPatient.png" alt=""/>

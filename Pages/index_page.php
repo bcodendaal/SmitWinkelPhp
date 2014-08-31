@@ -15,7 +15,7 @@ include 'includes/Home/Index.php';
     ?>
 </h1>
 <hr/>
-<img class="homeImage" src="Theme/Images/fadedDentist_1.png" alt=""/>
+<img class="homeImage" src="Theme/Images/home1.png" alt=""/>
 <div>
     <?php
     echo lang('ContentParagraf1')

@@ -110,7 +110,7 @@ if ($_SESSION['lang'] == 'af') {
 
                     <div class="smallImages-wrapper">
                         <div class="smallImageContainer">
-                            <a>
+                            <a href="appointment.php">
                                <div class="smallImage-wrap">
                                     <img src="Theme/Images/smallImage1.png" class="smallImage" alt=""/>
                                 </div>
@@ -128,9 +128,9 @@ if ($_SESSION['lang'] == 'af') {
                         </div>
                         <div style="clear:both">&nbsp;</div>
                         <div class="smallImageContainer">
-                            <a>
+                            <a href="newpatient.php">
                                 <div class="smallImage-wrap">
-                                    <img src="Theme/Images/smallImage1.png" class="smallImage" alt=""/>
+                                    <img src="Theme/Images/smallImage2.png" class="smallImage" alt=""/>
                                 </div>
                                 <span class="smallImage-text">
                                 <h4>
@@ -149,7 +149,7 @@ if ($_SESSION['lang'] == 'af') {
                         <div class="smallImageContainer">
                             <a>
                                 <div class="smallImage-wrap">
-                                    <img src="Theme/Images/smallImage1.png" class="smallImage" alt=""/>
+                                    <img src="Theme/Images/smallImage3.png" class="smallImage" alt=""/>
                                 </div>
                                 <span class="smallImage-text">
                                     <h4>

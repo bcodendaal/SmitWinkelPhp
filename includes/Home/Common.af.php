@@ -17,13 +17,13 @@
     
     'OfficeHoursHeader' => 'Kantoor Ure',
     'OfficeHoursContent' => '
-        </br>
-                                Maandag-Vrydag:
+
+                                <u>Maandag-Vrydag:</u>
                                 </br>
                                 
                                 7h30-17h30
-        </br>                        </br>
-                                Saterdae: 
+                      </br>
+                                <u>Saterdae: </u>
         </br>                        
                                 (Slegs mondhigiëniste per afrspraak)                                 
 </br>

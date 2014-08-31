@@ -16,12 +16,12 @@
     
     'OfficeHoursHeader' => 'Office Hours',
     'OfficeHoursContent' => '
-        </br>
-                                Monday-Friday:
+        
+                                <u>Monday-Friday:</u>
         </br>                        
                                 7h30-17h30
-        </br></br>                        
-                                Saturdays: 
+        </br>                     
+                                <u>Saturdays: </u>
         </br>                        
                                 (Only oral hygienist by appointment) 
         </br>

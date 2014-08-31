@@ -61,6 +61,35 @@ include 'includes/Home/OurTeam.php';
     ?>
     </div>
 </div>
+
+<!--<div style="clear: both">&nbsp;</div>-->
+<div class="staffSection">
+    <h3>
+           <?php
+        echo lang('ReceptionAdminSubHeader')
+    ?>
+    </h3>
+    <div>
+          
+         <?php
+        echo lang('ReceptionAdmin1')
+    ?>
+    </div>
+    
+     <div>
+          
+         <?php
+        echo lang('ReceptionAdmin2')
+    ?>
+    </div>
+    
+    <div>
+          
+         <?php
+        echo lang('ReceptionAdmin3')
+    ?>
+    </div>
+</div>
 <div class="staffSection">
     <h3>
            <?php
@@ -100,34 +129,6 @@ include 'includes/Home/OurTeam.php';
           
          <?php
         echo lang('AuxilaryStaff5')
-    ?>
-    </div>
-</div>
-<!--<div style="clear: both">&nbsp;</div>-->
-<div class="staffSection">
-    <h3>
-           <?php
-        echo lang('ReceptionAdminSubHeader')
-    ?>
-    </h3>
-    <div>
-          
-         <?php
-        echo lang('ReceptionAdmin1')
-    ?>
-    </div>
-    
-     <div>
-          
-         <?php
-        echo lang('ReceptionAdmin2')
-    ?>
-    </div>
-    
-    <div>
-          
-         <?php
-        echo lang('ReceptionAdmin3')
     ?>
     </div>
 </div>

@@ -9,7 +9,6 @@ include 'includes/Home/Appointment.php';
 }
 ?>
 
-<h2>Appointment</h2>
 <h1>   
     <?php
     echo lang('Header')

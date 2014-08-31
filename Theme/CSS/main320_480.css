@@ -1,0 +1,76 @@
+
+@media(max-width:480px)
+{
+      .content-pageWrapper {
+        clear: both;
+        width: 300px;
+        margin: auto;
+        }
+    
+    
+    /***********************
+    Contact us
+    ***********************/
+    .map{
+        border: 0;
+        width: 100%;
+    }
+
+    .content-container{
+        max-width: 320px;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .smallImage-wrap{
+        float:left;
+    }
+     .smallImages-wrapper{
+        display:block;
+        width: 320px;
+    }
+    
+    .smallImage-text{
+        width: 185px;
+    }
+    
+    .smallImageContainer {;
+        width: 317px;
+    }
+}
+
+@media(max-width:350px)
+{
+    .header-container {
+        height: 36px;
+    }
+    
+    .logo {
+        width: 19px;
+        margin: 6px 0px 0px 6px;
+    }
+    
+    .header-container-text {
+        font-size: 14px;
+        font-weight: bold;
+        margin: 10px 0px 0px 0px;
+    }
+    
+    .index-header h1 {
+        font-size: 30px;        
+       }
+       
+    .content-container{ 
+        background-image: url('../Images/seethrough.png');
+    }
+    
+   
+    
+}
+
+
+/*--------- validation ----------*/
+.error
+{
+    border: 2px solid red;
+}

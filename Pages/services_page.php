@@ -73,13 +73,6 @@ include 'includes/Home/Services.php';
     <ul>
 </div>
 <div>&nbsp;</div>
-<div>&nbsp;</div>
-<img style="width: 132px;
-float: left;
-margin: 0 12px 0px 0px;"src="Theme/Images/Services1.png" alt=""/>
-<img style="width: 324px;
-float: left;
-padding: 0px 0px 32px 0px;"src="Theme/Images/Services2.png" alt=""/>
-<img style="width: 199px;
-float: left;
-margin: 0px 12px 0px 6px;"src="Theme/Images/Services4.png" alt=""/>
+<img class="services1"src="Theme/Images/Services1.png" alt=""/>
+<img class="services2"src="Theme/Images/Services2.png" alt=""/>
+<img class="services3"src="Theme/Images/Services4.png" alt=""/>

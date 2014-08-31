@@ -1,0 +1,115 @@
+
+/********************************************************************************/
+@media(max-width:768px)
+{
+    .container{
+        max-width:630px;
+        width:100%;
+        margin:auto;
+   }
+ 
+   
+   /***********************
+    Header
+    ***********************/
+    .header-container {
+        height: 76px;
+        max-width: 630px;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .logo {
+        width: 38px;
+        margin: 9px 0px 0px 0px;
+    }
+    
+    .header-container-text {
+        font-size: 24px;
+    }
+    
+    .header-container-addText {
+        font-size: 14px;
+        margin: 10px 0px 0px 19px;
+    }
+    
+    .btn-translation {
+        height: 32px;
+        margin-top: 12px;
+        font-size: 14px;
+        background-size: 66px;
+        margin-right: 10px;
+    }
+    
+    
+    
+    
+    
+
+    /***********************
+    Navigation
+    ***********************/
+    .nav {
+        padding: 10px 10px 10px 10px;
+        max-width: 630px;
+        margin: auto;
+        display:block;
+    }
+
+        .nav > li {
+            display: inline-block;
+        }
+
+            .nav > li > a {
+                padding: 0px 10px 0px 10px;
+            }
+
+            .nav > li:last-child > a {
+                border-right: 0px;
+            }
+            
+            
+            
+           
+                
+     /***********************
+    Content
+    ***********************/   
+            
+    .content-wrapper {
+        top: 112px;
+    }
+    
+    .content-pageWrapper{
+        width: 394px;
+    }
+    
+    .content-container{ 
+        background-image: url('../Images/seethrough.png');
+    }
+   
+
+    /*******************
+    Out staff
+    *********************/
+    
+    .staffSection{
+    width: 100%;
+    }
+    
+    
+    /*******************
+    Contact Us
+    *********************/
+    
+    .whereWeAre
+    {
+        width:100%;
+        float:left 
+    }
+
+    .contactNo{
+        width:100%;
+        float:left
+    }
+}

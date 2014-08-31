@@ -16,40 +16,44 @@ include 'includes/Home/ContactUs.php';
 </h1>
 <hr/>
 <div>
-    <div>
-        <h2>
-        <?php
-            echo lang('WhereAreWe')
-        ?>
-        </h2>
+    <div class="whereWeAre">
+        <div>
+            <h2>
+            <?php
+                echo lang('WhereAreWe')
+            ?>
+            </h2>
+        </div>
+        <div>
+            <?php
+                echo lang('Address')
+            ?>
+        </div>
     </div>
-    <div>
-        <?php
-            echo lang('Address')
-        ?>
+    <div class="contactNo">
+        <div>
+            <h2>
+            <?php
+                echo lang('ContactNumbers')
+            ?>
+            </h2>
+        </div>
+
+            <div>
+            <?php
+                echo lang('Tel')
+            ?>
+        </div>
+            <div>
+            <?php
+                echo lang('Fax')
+            ?>
+        </div>
     </div>
-    <div>&nbsp;</div>
-    <div>
+         <div style="clear:both">&nbsp;</div>
+    <div class="wheelchair">
         <?php
             echo lang('Wheelchair')
-        ?>
-    </div>
-    <div>
-        <h2>
-        <?php
-            echo lang('ContactNumbers')
-        ?>
-        </h2>
-    </div>
-
-        <div>
-        <?php
-            echo lang('Tel')
-        ?>
-    </div>
-        <div>
-        <?php
-            echo lang('Fax')
         ?>
     </div>
     <div>&nbsp;</div>

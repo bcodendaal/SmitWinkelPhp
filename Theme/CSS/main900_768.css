@@ -1,0 +1,83 @@
+
+@media(max-width:900px)
+{
+    
+   .container{
+        max-width:740px;
+        width:100%;
+        margin:auto;
+   }
+ 
+   
+   /***********************
+    Header
+    ***********************/
+    .header-container {
+        height: 76px;
+        max-width: 740px;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .logo {
+        width: 38px;
+        margin: 9px 0px 0px 0px;
+    }
+    
+    .header-container-text {
+        float: left;
+        font-size: 30px;
+        margin: 16px 0px 0px 0px;
+    }
+    
+    
+    
+    
+    
+        /***********************
+    Navigation
+    ***********************/
+    .nav {
+        padding: 10px 10px 10px 10px;
+        max-width: 740px;
+        margin: auto;
+        display:block;
+    }
+
+        .nav > li {
+            display: inline-block;
+        }
+
+            .nav > li > a {
+                text-decoration: none;
+                color: rgb(167, 167, 167);
+                padding: 0px 20px 0px 20px;
+            }
+
+            .nav > li:last-child > a {
+                border-right: 0px;
+            }    
+            
+            
+            
+            
+            
+            
+     /***********************
+    Content
+    ***********************/   
+            
+    .content-wrapper {
+        top: 123px;
+    }
+    
+   .content-pageWrapper {
+    position: relative;
+    background-position-x: left;
+    background-position-y: top;
+    padding: 10px;
+    float: left;
+    width: 500px;
+    }
+    
+}

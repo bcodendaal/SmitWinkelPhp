@@ -55,10 +55,10 @@ Header
 }
 
 .header-container{
-    height: 85px;
-    width: 900px;
+   height: 85px;
+    width: 878px;
     margin: auto;
-    color: rgb(95, 95, 95)
+    color: rgb(95, 95, 95);
 }
 .header-container-text{
     float: left;
@@ -114,7 +114,7 @@ Navigation
         .nav > li > a {
             text-decoration: none;
             color: rgb(167, 167, 167);
-            padding: 0px 35px 0px 35px;
+            padding: 0px 25px 0px 25px;
             border-right: rgb(228, 228, 228) solid 1px;
         }
 
@@ -154,12 +154,15 @@ Content
     min-height: 795px;
 }
 
-.content-pageWrapper{
-    position:relative;
+.content-pageWrapper {
+    position: relative;
     background-position-x: left;
     background-position-y: top;
     padding: 10px;
+    float: left;
+    width: 658px;
 }
+
 .content-container{
     background-image: url('../Images/seethrough_40.png');
     background-position-x: left;
@@ -225,9 +228,12 @@ Content
 }
 
 .smallImageContainer{
-    overflow:auto;
     overflow: auto;
-    padding: 0px 10px 0px 10px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 0px 0px 0px 0px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 440px;
 }
 
 .smallImage {
@@ -237,7 +243,13 @@ Content
 }
 
 .smallImage-text{
+    position: relative;
+    overflow: auto;
     float:left;
+    height: 100%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
 }
 /***********************
 Footer
@@ -256,10 +268,6 @@ Footer
 .footer-container{
     
 }
-
-
-
-
 
 
 /***********************
@@ -283,26 +291,12 @@ Home
 }
 
 .homeImage{
-width: 35%;
+width: 100%;
 float: right;
 margin: 0px 0px 15px 15px;
 }
     
-    
-    
-
-@media(min-width:650px)
-{
-     .btn-translation-sm{
-        display:none;
-    }
-    
-    .nav {
-        display: block;
-    }
-    
-}
-
+ 
 
 
 /***********************
@@ -310,426 +304,60 @@ Contact us
 ***********************/
 .map{
     border: 0;
-    width: 55%;
-    /* border-radius: 10px; */
+    width: 100%;
+    
     border: 5px solid white;
     margin: auto;
     position: relative;
 }
 
+.whereWeAre
+{
+    width:40%;
+    float:left 
+}
 
+.contactNo{
+    width:40%;
+    float:left
+}
 
+.wheelchair
+{
+    width: 100%;
+    font-weight: bold;
+    width:100%
+}
 /***********************
 Our Staff
 ***********************/
 .img-ourstaff{
-    width:650px;
+    width: 100%;
     margin: 0px 0px 15px 0px;
-    border:2px solid rgb(90, 90, 90);
+    border-radius: 3px;
 }
 
 .staffSection{
-    float:left;
-    margin:10px 60px 10px 10px;
-}
-
-/********************************************************************************/
-@media(max-width:935px)
-{
-    
-   .container{
-        max-width:900px;
-        width:100%;
-        margin:auto;
-   }
- 
-   
-   /***********************
-    Header
-    ***********************/
-    .header-container {
-        height: 76px;
-        max-width: 900px;
-        width: 100%;
-        margin: auto;
-    }
-    
-    .logo {
-        width: 38px;
-        margin: 9px 0px 0px 0px;
-    }
-    
-    .header-container-text {
-        float: left;
-        font-size: 30px;
-        margin: 16px 0px 0px 0px;
-    }
-    
-    
-    
-    
-    
-        /***********************
-    Navigation
-    ***********************/
-    .nav {
-        padding: 10px 10px 10px 10px;
-        max-width: 750px;
-        margin: auto;
-        display:block;
-    }
-
-        .nav > li {
-            display: inline-block;
-        }
-
-            .nav > li > a {
-                text-decoration: none;
-                color: rgb(167, 167, 167);
-                padding: 0px 20px 0px 20px;
-            }
-
-            .nav > li:last-child > a {
-                border-right: 0px;
-            }    
-            
-            
-            
-            
-            
-            
-     /***********************
-    Content
-    ***********************/   
-            
-    .content-wrapper {
-        top: 123px;
-    }
-    
-    .content-pageWrapper {
-/*        float: left;
-        width: 70%;*/
-    }
-}
-
-/********************************************************************************/
-@media(max-width:750px)
-{
-    .container{
-        max-width:750px;
-        width:100%;
-        margin:auto;
-   }
- 
-   
-   /***********************
-    Header
-    ***********************/
-    .header-container {
-        height: 66px;
-        max-width: 750px;
-        width: 100%;
-    }
-    
-    .logo {
-        width: 38px;
-        margin: 9px 0px 0px 0px;
-    }
-    
-    .header-container-text {
-        float: left;
-        font-size: 24px;
-        margin: 16px 0px 0px 0px
-    }
-    
-    .header-container-addText {
-        font-size: 14px;
-        margin: 10px 0px 0px 19px;
-    }
-    
-    .btn-translation {
-        height: 32px;
-        margin-top: 12px;
-        font-size: 14px;
-        background-size: 66px;
-        margin-right: 10px;
-    }
-    
-    
-    
-    
-    
-
-    /***********************
-    Navigation
-    ***********************/
-    .nav {
-        padding: 10px 10px 10px 10px;
-        max-width: 750px;
-        margin: auto;
-        display:block;
-    }
-
-        .nav > li {
-            display: inline-block;
-        }
-
-            .nav > li > a {
-                padding: 0px 24px 0px 24px;
-            }
-
-            .nav > li:last-child > a {
-                border-right: 0px;
-            }
-            
-            
-            
-            
-                
-     /***********************
-    Content
-    ***********************/   
-            
-    .content-wrapper {
-        top: 112px;
-    }
-    
-    .content-pageWrapper{
-
-    }
-    
-    .content-container{ 
-        background-image: url('../Images/seethrough.png');
-    }
-    
-                
-     /***********************
-    Home
-    ***********************/   
-    
-    .homeImage {
-        width: 58%;
-        float:none;
-        margin: 0px 0px 15px 0px;
-    }
-}
-
-/********************************************************************************/
-@media(max-width:650px)
-{
-    .container{
-        max-width:650px;
-        width:100%;
-        margin:auto;
-   }
- 
-   
-   /***********************
-    Header
-    ***********************/
-    .header-container {
-        height: 50px;
-        max-width: 750px;
-        width: 100%;
-    }
-    
-    .logo {
-        width: 29px;
-        margin: 6px 0px 0px 6px;
-    }
-    
-    .header-container-text {
-        font-size: 20px;
-        margin: 13px 0px 0px 0px;
-        font-weight: bold;
-    }
-    
-    .header-container-addText {
-        display:none;
-    }
-    
-    .btn-translation {
-        background-image: url('../Images/greenBtn.png');
-        height: 32px;
-        width: 65px;
-        padding-top: 9px;        
-        margin-top: 12px;
-        font-size: 14px;
-        background-size: 66px;
-        margin-right: 10px;
-        display:none;
-    } 
-    
-    
-    
-    
-    
-    /***********************
-    Navigation
-    ***********************/
-    ul > .nav {
-        display: none;
-    }
-
-    .nav > li {
-        display: block;
-        text-align: left;
-    }
-
-        .nav > li > a {
-            text-decoration: none;
-            margin: 10px 0px 13px 0px;
-            border-right: none;
-            border-bottom: 1px solid white;
-            padding: 0px;
-            display: block;
-        }
-
-    .nav {
-        padding: 10px 10px 10px 10px;
-        max-width: 650px;
-        width: 96%;
-        margin: auto; 
-        position: absolute;
-        z-index: 999;
-        display:none;
-    }
-
-    .nav-btn::before {
-        content: "Menu";
-        width: 47px;
-        margin: 0px 0px 4px 10px;
-        padding: 0px 5px 0px 5px;
-        cursor: pointer;
-        display: block;
-        border-radius: 4px;
-        box-shadow: 1px 1px 2px 0px;
-        padding: 0px 5px 0px 5px;
-        background-color: rgb(219, 219, 219);
-    }
-
-
-    .nav-container {
-        border-bottom: 4px solid white;
-        border-top: 4px solid white;
-        font-family: cambria;
-        font-size: 14px;
-        background-color: rgb(238, 238, 238);
-    }
-    
-    .btn-translation-sm {
-        margin: 0px 10px 0px 0px;
-        cursor: pointer;
-        display: block;
-        float: right;
-        color:#646464;
-        font-size: 14px;
-    }
-        
-    .btn-translation-formbtn
-    {
-        font-family: cambria;
-        font-size: 14px;
-        color:#646464;
-        background-color: rgb(219, 219, 219);
-        border-radius:5px;
-        margin: -1px 0px 0px 0px;
-        padding: 0px 3px 0px 3px;
-    }
-        
-        
-    /***********************
-    Content
-    ***********************/    
-    .content-wrapper {
-        top: 73px;
-    }
-    
-    .content-pageWrapper{
-
-    }
-    
-    .content-imgBoxWrapper{
-
-    }
-    
-    .content-container{ 
-        background-image: url('../Images/seethrough.png');
-        min-height: 816px;
-    }
-    
-    /***********************
-    Footer
-    ***********************/    
-    .footer-wrapper {
-        width: 100%;
-        bottom: 0;
-        height: 46px;
-    }
-    
-}
-@media(max-width:500px)
-{
-      .content-pageWrapper{
-        clear: both;
-        width: auto;
-        padding: 0px 20px 20px 20px;
-    }
-    
-    .content-imgBoxWrapper{
-        display:none;
-    }
-    
-    .homeImage {
-        width: 100%;
-        margin: 0px 0px 15px 0px;
-    }
-    
-    .smallImages-wrapper{
-        display:block;
-    }
-    
-    
-    /***********************
-    Contact us
-    ***********************/
-    .map{
-        border: 0;
-        width: 100%;
-    }
-
-}
-
-@media(max-width:350px)
-{
-    .header-container {
-        height: 36px;
-    }
-    
-    .logo {
-        width: 19px;
-        margin: 6px 0px 0px 6px;
-    }
-    
-    .header-container-text {
-        font-size: 14px;
-        font-weight: bold;
-        margin: 10px 0px 0px 0px;
-    }
-    
-    .index-header h1 {
-        font-size: 30px;        
-       }
-       
-    .content-container{ 
-        background-image: url('../Images/seethrough.png');
-    }
-    
+   float: left;
+    margin: 10px 10px 10px 10px;
+    width: 140px;
 }
 
 
-/*--------- validation ----------*/
-.error
-{
-    border: 2px solid red;
+/***********************
+Our Services
+***********************/
+.services1{
+    width: 50%;
+    float: left;
+    margin: 0px 5px 0px 0px;
+}
+.services2{
+    width: 47%;
+    float: left;
+    margin: 0px 0px 5px 0px;
+}
+.services3{
+    width: 46%;
+    float: left;
 }

@@ -2,6 +2,9 @@
     'Header' => '
     Contact Us',
         
+      'ContactNumbers' => '
+Contact Numbers',
+  
     'Address' => '
     2 Mountainview Drive, <br/>
     Ridgeworth,<br/>

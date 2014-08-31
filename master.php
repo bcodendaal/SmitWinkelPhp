@@ -42,6 +42,10 @@ if ($_SESSION['lang'] == 'af') {
         <title>Smit & Winkel</title>
         <title></title>
         <link href="Theme/CSS/main.css" rel="stylesheet" type="text/css"/>
+        <link href="Theme/CSS/main900_768.css" rel="stylesheet" type="text/css"/>
+        <link href="Theme/CSS/main768_650.css" rel="stylesheet" type="text/css"/>
+        <link href="Theme/CSS/main480_650.css" rel="stylesheet" type="text/css"/>
+        <link href="Theme/CSS/main320_480.css" rel="stylesheet" type="text/css"/>
         <link href="Theme/CSS/jquery.datetimepicker.css" rel="stylesheet" type="text/css"/>
         <script src="Scripts/jquery-1.7.1.min.js" type="text/javascript"></script>
         <script src="Scripts/jquery.datetimepicker.js" type="text/javascript"></script>
@@ -107,7 +111,7 @@ if ($_SESSION['lang'] == 'af') {
                     <div class="smallImages-wrapper">
                         <div class="smallImageContainer">
                             <a>
-                                <div>
+                               <div class="smallImage-wrap">
                                     <img src="Theme/Images/smallImage1.png" class="smallImage" alt=""/>
                                 </div>
                                 <span class="smallImage-text">
@@ -125,7 +129,7 @@ if ($_SESSION['lang'] == 'af') {
                         <div style="clear:both">&nbsp;</div>
                         <div class="smallImageContainer">
                             <a>
-                                <div>
+                                <div class="smallImage-wrap">
                                     <img src="Theme/Images/smallImage1.png" class="smallImage" alt=""/>
                                 </div>
                                 <span class="smallImage-text">
@@ -144,7 +148,7 @@ if ($_SESSION['lang'] == 'af') {
                         <div style="clear:both">&nbsp;</div>
                         <div class="smallImageContainer">
                             <a>
-                                <div>
+                                <div class="smallImage-wrap">
                                     <img src="Theme/Images/smallImage1.png" class="smallImage" alt=""/>
                                 </div>
                                 <span class="smallImage-text">

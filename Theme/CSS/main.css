@@ -4,7 +4,8 @@ Common
 body{
     width: 100%;
     margin: 0px;
-    font-family: Cambria, 'Times New Roman';
+    font-family: 'Tebuchet MS','Helvetica','sans-serif';
+    font-size: 14px;
     color: #646464;
     min-width: 250px;
 }
@@ -62,8 +63,8 @@ Header
 }
 .header-container-text{
     float: left;
-    font-size: 39px;
-    margin: 15px 0px 0px 0px;
+    font-size: 35px;
+    margin: 20px 0px 0px 0px;
 }
 .header-container-addText{
     float: left;
@@ -85,9 +86,9 @@ Header
     float: right;
     margin-top: 17px;
     text-decoration: none;
-    font-family: cambria;
     font-size: 14px;
     color:#646464;
+    font-family: 'Tebuchet MS','Helvetica','sans-serif';
 }
 
 /***********************
@@ -116,6 +117,7 @@ Navigation
             color: rgb(167, 167, 167);
             padding: 0px 25px 0px 25px;
             border-right: rgb(228, 228, 228) solid 1px;
+            font-family: 'Tebuchet MS','Helvetica','sans-serif';
         }
 
         .nav > li:last-child > a {
@@ -204,13 +206,13 @@ Content
 }
 
 .boxText{
-    position:absolute;
+    position: absolute;
     font-size: 14px;
     padding: 0px 16px 0px 10px;
-    text-align: justify;
+
 }
 .box1text{
-    bottom: 26px;
+    bottom: 17px;
 }
 
 .box2text{

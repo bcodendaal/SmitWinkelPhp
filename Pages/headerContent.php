@@ -1,5 +1,5 @@
 <img class="logo" src="Theme/Images/logo.png" alt="Smit Winkel Logo"/>
-<div class="header-container-text">Smit &amp; Winkel | <?php
+<div class="header-container-text shadow-text">Smit &amp; Winkel | <?php
                                     echo commonlang('MainHeader')
                                     ?></div>
 <div class="header-container-addText">

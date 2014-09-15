@@ -39,7 +39,9 @@ hr{
     margin:20px 0px 20px 0px;
 }
 
-
+.shadow-text{
+text-shadow: 1px 1px 2px black;
+}
 
 /***********************
 Header

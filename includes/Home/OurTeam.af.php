@@ -6,7 +6,7 @@
    Melanie du Plessis',
   
   'AuxilaryStaff3' => '
-   Joléne Potgieter',
+   Joléne Els',
   
   'AuxilaryStaff4' => '
    Elizabeth Williams',
@@ -33,7 +33,7 @@ Christelle Smit
 Aanvullende Personeel
 Adele Lambrechts
 Melanie du Plessis
-Joléne Potgieter
+Joléne Els
 Elizabeth Williams
 Michelle Jejane',
   

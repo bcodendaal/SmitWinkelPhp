@@ -10,10 +10,10 @@
     
     
     'BookHeader' => 'Maak \'n afspraak',    
-    'BookContent' => 'Klik hier om \'n form in te vul om U afspraak te maak',
+    'BookContent' => 'Klik hier om \'n vorm in te vul om U afspraak te maak',
     
-    'NewPatientHeader' => 'Nuwe patiënt?',    
-    'NewPatientContent' => 'Spaar tyd en vul die Nuwe Patiënt Registrasie form in aanlyn',
+    'NewPatientHeader' => 'Nuwe pasiënt?',    
+    'NewPatientContent' => 'Spaar tyd en vul die Nuwe Pasiënt Registrasie vorm in aanlyn',
     
     'OfficeHoursHeader' => 'Kantoor Ure',
     'OfficeHoursContent' => '
